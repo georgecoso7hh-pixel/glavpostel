@@ -331,6 +331,9 @@ function renderReviews(){
  arrNext=root.querySelector(".rv-arrow.next");
  arrPrev.onclick=function(){go(curPage-1);};
  arrNext.onclick=function(){go(curPage+1);};
+ var _tsx=0,_tsy=0,_tsw=false;
+ viewport.addEventListener("touchstart",function(e){var t=e.changedTouches[0];_tsx=t.clientX;_tsy=t.clientY;_tsw=false;},{passive:true});
+ viewport.addEventListener("touchmove",function(e){if(_tsw)return;var t=e.changedTouches[0];var dx=t.clientX-_tsx,dy=t.clientY-_tsy;if(Math.abs(dx)>40&&Math.abs(dx)>Math.abs(dy)){_tsw=true;go(curPage+(dx<0?1:-1));}},{passive:true});
  buildCards();buildPages();go(0);
  var rt;
  window.addEventListener("resize",function(){

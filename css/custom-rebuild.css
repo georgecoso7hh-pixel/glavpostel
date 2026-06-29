@@ -253,3 +253,13 @@ ul.products-filter li a{display:inline-block !important;padding:11px 28px !impor
 #order .price .gray{font-weight:400;color:#888;}
 #order .lead-iframe-wrap iframe{width:100% !important;min-height:470px;}
 @media (max-width:560px){#order{max-width:96vw;}#order .box_order_info{padding:12px !important;}#order .lead-iframe-wrap iframe{min-height:510px;}}
+/* ===== reviews v23: orange next arrow, hide count, mobile dots ===== */
+.rv-rate .cnt{display:none !important;}
+.rv-arrow.next{background:#e8730c !important;color:#fff !important;box-shadow:0 5px 18px rgba(232,115,12,.55) !important;}
+.rv-arrow.next:hover{background:#cf6207 !important;}
+.rv-arrow.next[disabled]{background:#f0c39a !important;color:#fff !important;box-shadow:none !important;}
+@media(max-width:560px){
+.rv-pages{gap:7px;margin-top:16px;align-items:center;}
+.rv-page{width:9px;height:9px;min-width:0;padding:0;border-radius:50%;font-size:0;line-height:0;overflow:hidden;border:1px solid #d8d8d8;background:#fff;}
+.rv-page.act{width:22px;height:9px;border-radius:6px;background:#e8730c;border-color:#e8730c;}
+}
