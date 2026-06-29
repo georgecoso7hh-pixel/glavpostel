@@ -293,7 +293,7 @@ var StickyElement = function (node) {
 
 var demo = new StickyElement($('.header-box-fixed'));
 
-$('.mobile-items .cert-items').slick({
+$('.mobile-items .cert-items.__noslick__').slick({
   centerMode: true,
   centerPadding: '60px',
   slidesToShow: 1

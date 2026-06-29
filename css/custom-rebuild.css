@@ -214,3 +214,10 @@
 
 /* hide mobile promo ball ico3.png (screen 1) */
 .ico-mobile{display:none !important;}
+
+/* certificates: no slider on mobile, show both clearly (screen 2) */
+@media (max-width:768px){
+.mobile-items .cert-items{display:block !important;width:100% !important;text-align:center !important;}
+.mobile-items .cert-item{display:inline-block !important;width:44% !important;max-width:240px;padding:0 6px !important;margin:0 4px;vertical-align:top;float:none !important;}
+.mobile-items .cert-item img{width:100% !important;height:auto !important;border-radius:10px;}
+}
