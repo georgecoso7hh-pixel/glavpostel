@@ -141,7 +141,7 @@ function buildPlx(){
   '<div class="plx-price"><span class="plx-old">4580 руб</span><span class="plx-new">2290 руб</span></div>'+
   '<a href="#order" class="plx-buy" id="plxBuy">Заказать</a></div></div></div>';
  document.body.appendChild(plxOv);
- plxBig=plxOv.querySelector("#plxBig");
+ plxBig=plxOv.querySelector("#plxBig");plxBig.addEventListener("mousemove",function(e){var r=plxBig.getBoundingClientRect();var x=((e.clientX-r.left)/r.width)*100;var y=((e.clientY-r.top)/r.height)*100;plxBig.style.backgroundSize="230%";plxBig.style.backgroundPosition=x+"% "+y+"%";plxBig.style.cursor="zoom-in";});plxBig.addEventListener("mouseleave",function(){plxBig.style.backgroundSize="contain";plxBig.style.backgroundPosition="center";});
  plxStrip=plxOv.querySelector("#plxStrip");
  plxOv.querySelector(".plx-close").onclick=closePlx;
  plxOv.addEventListener("click",function(e){if(e.target===plxOv)closePlx();});

@@ -32,7 +32,8 @@
 .plx-new{color:#e8730c;font-size:28px;font-weight:800;}
 .plx-buy{display:block;text-align:center;background:#e8730c;color:#fff;font-weight:700;font-size:16px;padding:15px;border-radius:10px;text-decoration:none;margin-top:14px;transition:background .15s;}
 .plx-buy:hover{background:#cf6207;}
-.plx-close{position:absolute;top:12px;right:18px;font-size:32px;cursor:pointer;line-height:1;z-index:3;color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.6);}
+.plx-close{position:absolute;top:14px;right:16px;width:48px;height:48px;border-radius:50%;background:#fff;color:#e8312b;font-size:34px;font-weight:700;line-height:46px;text-align:center;cursor:pointer;z-index:6;box-shadow:0 3px 12px rgba(0,0,0,.22);transition:.15s;}
+.plx-close:hover{background:#e8312b;color:#fff;transform:scale(1.06);}
 
 /* ============ БЛОК ОТЗЫВОВ ============ */
 .satin-reviews{
