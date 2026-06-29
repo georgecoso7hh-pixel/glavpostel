@@ -125,7 +125,7 @@
 .rvm-name{font-weight:700;font-size:18px;color:#222;}
 .rvm-sub{font-size:13px;color:#9a9a9a;margin-top:2px;}
 .rvm-stars{color:#ffb400;font-size:19px;margin:16px 0 10px;letter-spacing:2px;}
-.rvm-objtitle{font-weight:700;font-size:19px;color:#222;margin:2px 0 12px;}
+.rvm-objtitle{display:none;}
 .rvm-text{font-size:16px;line-height:1.7;color:#3d3d3d;margin:0;}
 .rvm-thumbs-label{font-size:12px;letter-spacing:.6px;text-transform:uppercase;color:#9a9a9a;margin:20px 0 9px;}
 .rvm-thumbs{display:flex;gap:8px;flex-wrap:wrap;}
