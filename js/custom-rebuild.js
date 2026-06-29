@@ -264,7 +264,7 @@ function buildCards(){
  var pp=perPage();
  REVIEWS.forEach(function(r){
   var card=el("div","rv-card");
-  card.style.flexBasis="calc((100% - "+((pp-1)*16)+"px) / "+pp+")";
+  card.style.flex="0 0 calc((100% - "+((pp-1)*16)+"px) / "+pp+")";
   var n=r.media.length;
   var cov='<div class="rv-cover rv-cov-'+Math.min(n,4)+'">';
   r.media.slice(0,4).forEach(function(it,ti){
