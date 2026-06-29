@@ -211,3 +211,6 @@
 }
 .show-more-btn:hover{background:#cf6306;}
 .show-more-btn:active{transform:translateY(1px);}
+
+/* hide mobile promo ball ico3.png (screen 1) */
+.ico-mobile{display:none !important;}
