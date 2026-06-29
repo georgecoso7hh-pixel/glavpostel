@@ -352,6 +352,45 @@ function relocate(){
 }
 
 /* ===================== СТАРТ ===================== */
-function init(){initGalleries();relocate();renderReviews();}
+/* ===== Каталог: горизонтальная листалка на мобиле ===== */
+function initCatalogMobile(){
+ var lane=document.querySelector("ul.products");
+ if(!lane)return;
+ var items=Array.prototype.slice.call(lane.querySelectorAll(".products-item-fix"));
+ if(items.length<2)return;
+ var BATCH=6;
+ var container=document.getElementById("Container")||lane.parentNode;
+ var dots=document.createElement("div");
+ dots.className="cat-dots";
+ if(container&&container.parentNode)container.parentNode.insertBefore(dots,container.nextSibling);
+ function nPages(){return Math.ceil(items.length/BATCH);}
+ function step(){return items.length<2?items[0].offsetWidth:(items[1].offsetLeft-items[0].offsetLeft);}
+ function pageWidth(){return step()*BATCH;}
+ function scrollToPage(p){
+  var idx=Math.min(p*BATCH,items.length-1);
+  var left=items[idx].getBoundingClientRect().left-lane.getBoundingClientRect().left+lane.scrollLeft;
+  if(lane.scrollTo){lane.scrollTo({left:left,behavior:"smooth"});}else{lane.scrollLeft=left;}
+ }
+ function active(){var pw=pageWidth();return pw<=0?0:Math.round(lane.scrollLeft/pw);}
+ function buildDots(){
+  dots.innerHTML="";
+  var np=nPages(),a=active();
+  for(var p=0;p<np;p++){
+   var b=document.createElement("div");
+   b.className="cat-dot"+(p===a?" act":"");
+   (function(pi){b.onclick=function(){scrollToPage(pi);};})(p);
+   dots.appendChild(b);
+  }
+ }
+ function syncActive(){
+  var a=active();
+  Array.prototype.forEach.call(dots.children,function(c,i){c.className="cat-dot"+(i===a?" act":"");});
+ }
+ buildDots();
+ var tk;lane.addEventListener("scroll",function(){clearTimeout(tk);tk=setTimeout(syncActive,80);});
+ var rt;window.addEventListener("resize",function(){clearTimeout(rt);rt=setTimeout(buildDots,200);});
+}
+
+function init(){initGalleries();relocate();renderReviews();initCatalogMobile();}
 if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",init);}else{init();}
 })();
