@@ -227,3 +227,10 @@
 .products-item .prod-image:after{display:none !important;padding-bottom:0 !important;}
 .pgal{height:260px !important;}
 }
+
+/* fix: catalog filter button clipped to single letter on mobile -> show full word */
+@media(max-width:768px){
+ul.products-filter{display:block !important;width:auto !important;text-align:center !important;}
+ul.products-filter li{float:none !important;display:inline-block !important;width:auto !important;max-width:92% !important;padding:0 8px !important;}
+ul.products-filter li a{display:inline-block !important;padding:11px 28px !important;white-space:nowrap !important;}
+}
