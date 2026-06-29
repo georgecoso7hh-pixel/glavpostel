@@ -121,7 +121,7 @@ REVIEWS.forEach(function(r){
 function el(tag,cls,html){var e=document.createElement(tag);if(cls)e.className=cls;if(html!=null)e.innerHTML=html;return e;}
 function stars(n){var s="";for(var i=0;i<5;i++)s+=(i<n?"\u2605":"\u2606");return s;}
 function esc(t){return (t||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
-function bg(u){return "background-image:url('"+u+"')";}
++[char]39+"+u+"+[char]39+)";}'"+u+"')";}
 function avg(){var s=0;REVIEWS.forEach(function(r){s+=r.rating;});return s/REVIEWS.length;}
 function plural(n){var a=n%10,b=n%100;if(a===1&&b!==11)return "отзыв";if(a>=2&&a<=4&&(b<10||b>=20))return "отзыва";return "отзывов";}
 function posterOf(it,r){return it.type==="video"?(r.photos[0]||""):it.src;}
@@ -224,7 +224,7 @@ function navG(d){curG=(curG+d+MEDIA.length)%MEDIA.length;renderG();}
 function renderG(){
  var m=MEDIA[curG],r=m.rev;
  if(m.type==="video"){
-  rvmStage.innerHTML='<video src="'+m.src+'" controls autoplay playsinline></video>';
+  rvmStage.innerHTML='+[char]39++m.src++[char]39+" controls'+m.src+'" controls autoplay playsinline></video>';
  }else{
   rvmStage.innerHTML='<div class="img" style="'+bg(m.src)+'"></div>';
  }
