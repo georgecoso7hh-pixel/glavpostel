@@ -238,15 +238,13 @@ function renderG(){
   '<p class="rvm-text">'+esc(txt)+'</p>'+
   (r.media.length>1?'<div class="rvm-thumbs-label">Ещё фото отзыва</div>':'')+
   '<div class="rvm-thumbs">'+thumbs+'</div>'+
-  '<div class="rvm-reply"><b>Ответ продавца</b>'+esc(r.reply)+'</div>'+
-  '<a href="#order" class="rvm-cta" id="rvmCta">Заказать со скидкой ‒50% <span class="ar">\u203a</span></a>';
+  '<div class="rvm-reply"><b>Ответ продавца</b>'+esc(r.reply)+'</div>';
  var sd=rvmOv.querySelector("#rvmSide");
  sd.innerHTML=side;
  sd.scrollTop=0;
  Array.prototype.forEach.call(sd.querySelectorAll(".rvm-thumbs div"),function(d){
   d.onclick=function(){curG=parseInt(d.getAttribute("data-g"),10);renderG();};
  });
- sd.querySelector("#rvmCta").onclick=function(e){e.preventDefault();doOrder("");};
 }
 function openRvm(gIdx){
  if(!rvmOv)buildRvm();
@@ -299,7 +297,10 @@ function go(p){
  var np=nPages();
  if(p<0)p=0;if(p>np-1)p=np-1;
  curPage=p;
- track.style.transform="translateX(calc(-"+p+" * (100% + 16px)))";
+ var vw=viewport.clientWidth;
+ var maxShift=Math.max(0,track.scrollWidth-vw);
+ var shift=Math.min(p*(vw+16),maxShift);
+ track.style.transform="translateX(-"+shift+"px)";
  arrPrev.disabled=(p===0);
  arrNext.disabled=(p>=np-1);
  Array.prototype.forEach.call(pagesBox.children,function(c,i){c.className="rv-page"+(i===curPage?" act":"");});
