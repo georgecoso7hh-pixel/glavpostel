@@ -238,18 +238,3 @@ ul.products-filter li a{display:inline-block !important;padding:11px 28px !impor
 /* fix: .full-link overlay (z-index:10) intercepted button taps -> raise prod-buttons above it so reviews button scrolls instead of opening product modal */
 .products-item .prod-buttons{position:relative;z-index:20;}
 .products-item .prod-buttons a,.products-item .prod-buttons .to-reviews{position:relative;z-index:21;}
-
-/* ===== order modal v22: single column, no branding banner, per-card artikul ===== */
-#order{width:auto !important;max-width:520px;margin:0 auto;box-sizing:border-box;}
-#order .box_oder_image{display:none !important;}
-#order .box_order_info{display:block !important;width:100% !important;box-sizing:border-box;padding:16px !important;}
-#order .box_order_title{text-align:center;font-weight:700;font-size:20px;margin-bottom:10px;}
-#order .box_order_img{display:block !important;width:100% !important;}
-#order .box_order_img .block.clear{display:block !important;width:100% !important;text-align:center;margin-bottom:8px;}
-#order .info{display:block !important;width:100% !important;}
-#order #name{display:block;text-align:center;margin-bottom:6px;min-height:0;}
-.ord-art{display:inline-block;background:#e8730c;color:#fff;font-weight:700;font-size:16px;padding:6px 14px;border-radius:8px;letter-spacing:.3px;}
-#order .price{text-align:center;font-size:16px;margin:4px 0 12px;font-weight:700;}
-#order .price .gray{font-weight:400;color:#888;}
-#order .lead-iframe-wrap iframe{width:100% !important;min-height:470px;}
-@media (max-width:560px){#order{max-width:96vw;}#order .box_order_info{padding:12px !important;}#order .lead-iframe-wrap iframe{min-height:510px;}}

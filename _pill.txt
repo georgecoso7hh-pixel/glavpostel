@@ -1,0 +1,117 @@
+index.html:164: <div class="desc">При покупке от двух комплектов! </div>
+index.html:189: <li><a class="filter" data-filter=".1-5-spalnye" data-cat="CANDIE S FASHION">Каталог</a></li>
+index.html:1457: <div class="description">Когда заказ приходит в Ваш город, наш менеджер позвонит Вам и предупредит, что заказ прибыл в пункт выдачи. Вы получаете и только после этого оплачиваете свой заказ. Приятных покупок в нашем интернет магазине!</div>
+index.html:1565: <div class="item">При покупке от двух комплектов!</div>
+css/custom-rebuild.css:94: .rv-arrow{position:absolute;top:50%;transform:translateY(-50%);width:46px;height:46px;border-radius:50%;background:#fff;box-shadow:0 3px 14px rgba(0,0,0,.16);border:none;font-size:24px;line-height:1;cursor:pointer;color:#333;z-index:4;display:flex;align-items:center;justify-content:center;}
+css/custom-rebuild.css:95: .rv-arrow.prev{left:-20px;}
+css/custom-rebuild.css:96: .rv-arrow.next{right:-20px;}
+css/custom-rebuild.css:97: .rv-arrow[disabled]{opacity:.32;cursor:default;box-shadow:none;}
+css/custom-rebuild.css:98: @media(max-width:560px){.rv-arrow.prev{left:-6px;}.rv-arrow.next{right:-6px;}}
+css/fonts.css:265: .fa-arrow-circle-o-down:before {
+css/fonts.css:268: .fa-arrow-circle-o-up:before {
+css/fonts.css:396: .fa-arrows:before {
+css/fonts.css:465: .fa-arrow-left:before {
+css/fonts.css:468: .fa-arrow-right:before {
+css/fonts.css:471: .fa-arrow-up:before {
+css/fonts.css:474: .fa-arrow-down:before {
+css/fonts.css:551: .fa-arrows-v:before {
+css/fonts.css:554: .fa-arrows-h:before {
+css/fonts.css:675: .fa-arrow-circle-left:before {
+css/fonts.css:678: .fa-arrow-circle-right:before {
+css/fonts.css:681: .fa-arrow-circle-up:before {
+css/fonts.css:684: .fa-arrow-circle-down:before {
+css/fonts.css:702: .fa-arrows-alt:before {
+css/fonts.css:1001: .fa-location-arrow:before {
+css/fonts.css:1243: .fa-long-arrow-down:before {
+css/fonts.css:1246: .fa-long-arrow-up:before {
+css/fonts.css:1249: .fa-long-arrow-left:before {
+css/fonts.css:1252: .fa-long-arrow-right:before {
+css/fonts.css:1316: .fa-arrow-circle-o-right:before {
+css/fonts.css:1319: .fa-arrow-circle-o-left:before {
+css/fonts.css:1730: .fa-cart-arrow-down:before {
+css/slider.css:3: /* Arrows */
+css/slider.css:305: .slick-arrow.slick-hidden {
+css/style.css:59: font-family: ArialNarrow;
+css/style.css:99: font-family:'ArialNarrow';
+css/style.css:1291: font-family:'ArialNarrow';
+css/style.css:1776: -webkit-writing-mode: vertical-lr;
+css/style.css:1777: -ms-writing-mode: tb-lr;
+css/style.css:1778: writing-mode: vertical-lr;
+js/custom-rebuild.js:80: comment:"Очень довольна покупкой.",
+js/custom-rebuild.js:220: if(e.key==="ArrowRight")navG(1);else if(e.key==="ArrowLeft")navG(-1);else if(e.key==="Escape")closeRvm();
+js/custom-rebuild.js:323: '<div class="rv-carousel"><button class="rv-arrow prev">\u2039</button>'+
+js/custom-rebuild.js:325: '<button class="rv-arrow next">\u203a</button></div>'+
+js/custom-rebuild.js:330: arrPrev=root.querySelector(".rv-arrow.prev");
+js/custom-rebuild.js:331: arrNext=root.querySelector(".rv-arrow.next");
+js/jquery.fancybox.js:81: arrows     : true,
+js/jquery.fancybox.js:110: 39 : 'left', // right arrow
+js/jquery.fancybox.js:111: 40 : 'up'    // down arrow
+js/jquery.fancybox.js:116: 37 : 'right',  // left arrow
+js/jquery.fancybox.js:117: 38 : 'down'    // up arrow
+js/jquery.fancybox.js:810: arrows     : false,
+js/jquery.fancybox.js:1453: // Create navigation arrows
+js/jquery.fancybox.js:1454: if (current.arrows && F.group.length > 1) {
+js/slider.js:43: appendArrows: $(element),
+js/slider.js:45: arrows: true,
+js/slider.js:47: prevArrow: '<button type="button" data-role="none" class="slick-prev" aria-label="Previous" tabindex="0" role="button">Previous</button>',
+js/slider.js:48: nextArrow: '<button type="button" data-role="none" class="slick-next" aria-label="Next" tabindex="0" role="button">Next</button>',
+js/slider.js:105: $nextArrow: null,
+js/slider.js:106: $prevArrow: null,
+js/slider.js:435: Slick.prototype.buildArrows = function() {
+js/slider.js:439: if (_.options.arrows === true ) {
+js/slider.js:441: _.$prevArrow = $(_.options.prevArrow).addClass('slick-arrow');
+js/slider.js:442: _.$nextArrow = $(_.options.nextArrow).addClass('slick-arrow');
+js/slider.js:446: _.$prevArrow.removeClass('slick-hidden').removeAttr('aria-hidden tabindex');
+js/slider.js:447: _.$nextArrow.removeClass('slick-hidden').removeAttr('aria-hidden tabindex');
+js/slider.js:449: if (_.htmlExpr.test(_.options.prevArrow)) {
+js/slider.js:450: _.$prevArrow.prependTo(_.options.appendArrows);
+js/slider.js:453: if (_.htmlExpr.test(_.options.nextArrow)) {
+js/slider.js:454: _.$nextArrow.appendTo(_.options.appendArrows);
+js/slider.js:458: _.$prevArrow
+js/slider.js:465: _.$prevArrow.add( _.$nextArrow )
+js/slider.js:537: _.buildArrows();
+js/slider.js:766: if (_.options.arrows === true && _.slideCount > _.options.slidesToShow) {
+js/slider.js:767: _.$prevArrow && _.$prevArrow.off('click.slick', _.changeSlide);
+js/slider.js:768: _.$nextArrow && _.$nextArrow.off('click.slick', _.changeSlide);
+js/slider.js:851: if ( _.$prevArrow && _.$prevArrow.length ) {
+js/slider.js:853: _.$prevArrow
+js/slider.js:854: .removeClass('slick-disabled slick-arrow slick-hidden')
+js/slider.js:858: if ( _.htmlExpr.test( _.options.prevArrow )) {
+js/slider.js:859: _.$prevArrow.remove();
+js/slider.js:863: if ( _.$nextArrow && _.$nextArrow.length ) {
+js/slider.js:865: _.$nextArrow
+js/slider.js:866: .removeClass('slick-disabled slick-arrow slick-hidden')
+js/slider.js:870: if ( _.htmlExpr.test( _.options.nextArrow )) {
+js/slider.js:871: _.$nextArrow.remove();
+js/slider.js:1012: '*:not(.slick-arrow)', function(event) {
+js/slider.js:1253: _.updateArrows();
+js/slider.js:1312: Slick.prototype.initArrowEvents = function() {
+js/slider.js:1316: if (_.options.arrows === true && _.slideCount > _.options.slidesToShow) {
+js/slider.js:1317: _.$prevArrow
+js/slider.js:1322: _.$nextArrow
+js/slider.js:1368: _.initArrowEvents();
+js/slider.js:1413: if (_.options.arrows === true && _.slideCount > _.options.slidesToShow) {
+js/slider.js:1415: _.$prevArrow.show();
+js/slider.js:1416: _.$nextArrow.show();
+js/slider.js:1431: //Dont slide if the cursor is inside the form fields and arrow keys are pressed
+js/slider.js:1808: _.buildArrows();
+js/slider.js:1809: _.updateArrows();
+js/slider.js:1810: _.initArrowEvents();
+js/slider.js:2455: _.updateArrows();
+js/slider.js:2487: if (_.options.arrows === true && _.slideCount > _.options.slidesToShow) {
+js/slider.js:2489: _.$prevArrow.hide();
+js/slider.js:2490: _.$nextArrow.hide();
+js/slider.js:2776: if (_.$prevArrow && _.htmlExpr.test(_.options.prevArrow)) {
+js/slider.js:2777: _.$prevArrow.remove();
+js/slider.js:2780: if (_.$nextArrow && _.htmlExpr.test(_.options.nextArrow)) {
+js/slider.js:2781: _.$nextArrow.remove();
+js/slider.js:2799: Slick.prototype.updateArrows = function() {
+js/slider.js:2806: if ( _.options.arrows === true &&
+js/slider.js:2810: _.$prevArrow.removeClass('slick-disabled').attr('aria-disabled', 'false');
+js/slider.js:2811: _.$nextArrow.removeClass('slick-disabled').attr('aria-disabled', 'false');
+js/slider.js:2815: _.$prevArrow.addClass('slick-disabled').attr('aria-disabled', 'true');
+js/slider.js:2816: _.$nextArrow.removeClass('slick-disabled').attr('aria-disabled', 'false');
+js/slider.js:2820: _.$nextArrow.addClass('slick-disabled').attr('aria-disabled', 'true');
+js/slider.js:2821: _.$prevArrow.removeClass('slick-disabled').attr('aria-disabled', 'false');
+js/slider.js:2825: _.$nextArrow.addClass('slick-disabled').attr('aria-disabled', 'true');
+js/slider.js:2826: _.$prevArrow.removeClass('slick-disabled').attr('aria-disabled', 'false');

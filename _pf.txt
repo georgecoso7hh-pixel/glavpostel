@@ -1,0 +1,255 @@
+css/style.css:454: ul.products-filter{
+css/style.css:455: margin: 0;
+css/style.css:456: padding: 0;
+css/style.css:457: margin-bottom: 65px;
+css/style.css:458: display: table;
+css/style.css:459: }
+css/style.css:460: 
+css/style.css:461: ul.products-filter li{
+css/style.css:462: list-style: none;
+css/style.css:463: float: left;
+css/style.css:464: width: 259px;
+css/style.css:465: padding: 0 15px;
+css/style.css:466: display: inline-block;
+css/style.css:467: }
+css/style.css:468: 
+css/style.css:469: ul.products-filter li a{
+====
+css/style.css:461: ul.products-filter li{
+css/style.css:462: list-style: none;
+css/style.css:463: float: left;
+css/style.css:464: width: 259px;
+css/style.css:465: padding: 0 15px;
+css/style.css:466: display: inline-block;
+css/style.css:467: }
+css/style.css:468: 
+css/style.css:469: ul.products-filter li a{
+css/style.css:470: display:block;
+css/style.css:471: text-align:center;
+css/style.css:472: padding:13px 0;
+css/style.css:473: border:1px solid #dedede;
+css/style.css:474: border-radius:85px;
+css/style.css:475: font-family:'ArialB';
+css/style.css:476: text-decoration:none;
+====
+css/style.css:469: ul.products-filter li a{
+css/style.css:470: display:block;
+css/style.css:471: text-align:center;
+css/style.css:472: padding:13px 0;
+css/style.css:473: border:1px solid #dedede;
+css/style.css:474: border-radius:85px;
+css/style.css:475: font-family:'ArialB';
+css/style.css:476: text-decoration:none;
+css/style.css:477: color:#595959;
+css/style.css:478: cursor:pointer;
+css/style.css:479: }
+css/style.css:480: 
+css/style.css:481: ul.products-filter li a:hover{
+css/style.css:482: border:1px solid #ff846a;
+css/style.css:483: box-shadow:0px 1px 0px #ff846a,0px -1px 0px #ff846a,1px 0px 0px #ff846a,-1px 0px 0px #ff846a;
+css/style.css:484: }
+====
+css/style.css:481: ul.products-filter li a:hover{
+css/style.css:482: border:1px solid #ff846a;
+css/style.css:483: box-shadow:0px 1px 0px #ff846a,0px -1px 0px #ff846a,1px 0px 0px #ff846a,-1px 0px 0px #ff846a;
+css/style.css:484: }
+css/style.css:485: 
+css/style.css:486: ul.products-filter li a.active{
+css/style.css:487: background-image: linear-gradient(180deg, #ff886a 0%, #ff3f64 100%);
+css/style.css:488: color:#fff;
+css/style.css:489: position:relative;
+css/style.css:490: -webkit-transition: all .5s linear;
+css/style.css:491: -moz-transition: all .5s linear;
+css/style.css:492: -o-transition: all .5s linear;
+css/style.css:493: -ms-transition: all .5s linear;
+css/style.css:494: transition: all .5s linear;
+css/style.css:495: transition:color 0ms linear;
+css/style.css:496: }
+====
+css/style.css:486: ul.products-filter li a.active{
+css/style.css:487: background-image: linear-gradient(180deg, #ff886a 0%, #ff3f64 100%);
+css/style.css:488: color:#fff;
+css/style.css:489: position:relative;
+css/style.css:490: -webkit-transition: all .5s linear;
+css/style.css:491: -moz-transition: all .5s linear;
+css/style.css:492: -o-transition: all .5s linear;
+css/style.css:493: -ms-transition: all .5s linear;
+css/style.css:494: transition: all .5s linear;
+css/style.css:495: transition:color 0ms linear;
+css/style.css:496: }
+css/style.css:497: 
+css/style.css:498: ul.products-filter li a.active:after{
+css/style.css:499: border: 8px solid transparent;
+css/style.css:500: border-top: 8px solid #ff3f64;
+css/style.css:501: content: '';
+====
+css/style.css:498: ul.products-filter li a.active:after{
+css/style.css:499: border: 8px solid transparent;
+css/style.css:500: border-top: 8px solid #ff3f64;
+css/style.css:501: content: '';
+css/style.css:502: display: block;
+css/style.css:503: width: 1px;
+css/style.css:504: position: absolute;
+css/style.css:505: bottom: -15px;
+css/style.css:506: left:50%;
+css/style.css:507: margin-left:-8px;
+css/style.css:508: }
+css/style.css:509: 
+css/style.css:510: ul.products-filter li a.active:hover{
+css/style.css:511: border:1px solid #dedede;
+css/style.css:512: box-shadow:none;
+css/style.css:513: }
+====
+css/style.css:510: ul.products-filter li a.active:hover{
+css/style.css:511: border:1px solid #dedede;
+css/style.css:512: box-shadow:none;
+css/style.css:513: }
+css/style.css:514: 
+css/style.css:515: .products-nav{
+css/style.css:516: text-align:center;
+css/style.css:517: margin-bottom:65px;
+css/style.css:518: color:#3e3e3e;
+css/style.css:519: font-size:17px;
+css/style.css:520: font-family:'LucidaI';
+css/style.css:521: letter-spacing:-1px;
+css/style.css:522: }
+css/style.css:523: 
+css/style.css:524: .products-nav a{
+css/style.css:525: font-family:'LucidaIB';
+====
+css/style.css:737: .nav-fix ul.products-filter{
+css/style.css:738: margin:0;
+css/style.css:739: margin-top:65px;
+css/style.css:740: }
+css/style.css:741: 
+css/style.css:742: .nav-fix ul.products-filter li a{
+css/style.css:743: border-radius:10px;
+css/style.css:744: }
+css/style.css:745: 
+css/style.css:746: .nav-fix ul.products-filter li a.active:after{
+css/style.css:747: border-top: 0px;
+css/style.css:748: border-bottom: 8px solid #ff8369;
+css/style.css:749: bottom: inherit;
+css/style.css:750: top: -8px;
+css/style.css:751: }
+css/style.css:752: 
+====
+css/style.css:742: .nav-fix ul.products-filter li a{
+css/style.css:743: border-radius:10px;
+css/style.css:744: }
+css/style.css:745: 
+css/style.css:746: .nav-fix ul.products-filter li a.active:after{
+css/style.css:747: border-top: 0px;
+css/style.css:748: border-bottom: 8px solid #ff8369;
+css/style.css:749: bottom: inherit;
+css/style.css:750: top: -8px;
+css/style.css:751: }
+css/style.css:752: 
+css/style.css:753: .nav-fix ul.products-filter li a.active:hover:after{
+css/style.css:754: border-bottom:8px solid #ff3f64;
+css/style.css:755: }
+css/style.css:756: 
+css/style.css:757: /* ---------------------- END PRODUCTS ---------------------- */
+====
+css/style.css:746: .nav-fix ul.products-filter li a.active:after{
+css/style.css:747: border-top: 0px;
+css/style.css:748: border-bottom: 8px solid #ff8369;
+css/style.css:749: bottom: inherit;
+css/style.css:750: top: -8px;
+css/style.css:751: }
+css/style.css:752: 
+css/style.css:753: .nav-fix ul.products-filter li a.active:hover:after{
+css/style.css:754: border-bottom:8px solid #ff3f64;
+css/style.css:755: }
+css/style.css:756: 
+css/style.css:757: /* ---------------------- END PRODUCTS ---------------------- */
+css/style.css:758: 
+css/style.css:759: /* ---------------------- STYLE AND REVIEWS ---------------------- */
+css/style.css:760: 
+css/style.css:761: /** STYLE **/
+====
+css/style.css:753: .nav-fix ul.products-filter li a.active:hover:after{
+css/style.css:754: border-bottom:8px solid #ff3f64;
+css/style.css:755: }
+css/style.css:756: 
+css/style.css:757: /* ---------------------- END PRODUCTS ---------------------- */
+css/style.css:758: 
+css/style.css:759: /* ---------------------- STYLE AND REVIEWS ---------------------- */
+css/style.css:760: 
+css/style.css:761: /** STYLE **/
+css/style.css:762: .satin-box-background{
+css/style.css:763: background-image:url(../images/background2.jpg)/*tpa=http://glavpostel.biz/images/background2.jpg*/;
+css/style.css:764: position:relative;
+css/style.css:765: }
+css/style.css:766: 
+css/style.css:767: .satin-box-background:before{
+css/style.css:768: content:'';
+====
+css/media.css:89: ul.products-filter li{
+css/media.css:90: width:33.33%;
+css/media.css:91: margin-bottom:15px;
+css/media.css:92: }
+css/media.css:93: 
+css/media.css:94: ul.products-filter{
+css/media.css:95: margin-bottom:35px;
+css/media.css:96: }
+css/media.css:97: 
+css/media.css:98: .products-item-fix{
+css/media.css:99: width:50%;
+css/media.css:100: }
+css/media.css:101: 
+css/media.css:102: #Container{
+css/media.css:103: padding-bottom:0px;
+css/media.css:104: }
+====
+css/media.css:94: ul.products-filter{
+css/media.css:95: margin-bottom:35px;
+css/media.css:96: }
+css/media.css:97: 
+css/media.css:98: .products-item-fix{
+css/media.css:99: width:50%;
+css/media.css:100: }
+css/media.css:101: 
+css/media.css:102: #Container{
+css/media.css:103: padding-bottom:0px;
+css/media.css:104: }
+css/media.css:105: 
+css/media.css:106: .satin-box-items .satin-box-item{
+css/media.css:107: padding:0 15px;
+css/media.css:108: }
+css/media.css:109: 
+====
+css/media.css:439: ul.products-filter li{
+css/media.css:440: width:50%;
+css/media.css:441: }
+css/media.css:442: 
+css/media.css:443: ul.products-filter{
+css/media.css:444: margin-bottom:15px;
+css/media.css:445: }
+css/media.css:446: 
+css/media.css:447: .products-nav{
+css/media.css:448: margin-bottom:30px;
+css/media.css:449: }
+css/media.css:450: 
+css/media.css:451: .products-item-fix{
+css/media.css:452: width:100%;
+css/media.css:453: }
+css/media.css:454: 
+====
+css/media.css:443: ul.products-filter{
+css/media.css:444: margin-bottom:15px;
+css/media.css:445: }
+css/media.css:446: 
+css/media.css:447: .products-nav{
+css/media.css:448: margin-bottom:30px;
+css/media.css:449: }
+css/media.css:450: 
+css/media.css:451: .products-item-fix{
+css/media.css:452: width:100%;
+css/media.css:453: }
+css/media.css:454: 
+css/media.css:455: .products-item .prod-image:after{
+css/media.css:456: padding-bottom:65%;
+css/media.css:457: }
+css/media.css:458: 
+====

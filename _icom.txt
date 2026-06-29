@@ -1,0 +1,14 @@
+media.css:557: .ico-mobile{
+media.css:558: display:block;
+media.css:559: }
+media.css:560: 
+media.css:561: header{
+media.css:562: background-position:-800px 0;
+---
+style.css:1592: .ico-mobile{
+style.css:1593: text-align: center;
+style.css:1594: margin-top: -20px;
+style.css:1595: display:none;
+style.css:1596: }
+style.css:1597: 
+---

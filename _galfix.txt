@@ -1,0 +1,63 @@
+==== css/style.css 550-566 ====
+550: position:relative;
+551: }
+552: 
+553: .products-item .prod-image{
+554: background-position: center;
+555: background-size: cover;
+556: position:relative;
+557: }
+558: 
+559: .products-item .prod-image img{
+560: width:100%;
+561: height:224px;
+562: display:block;
+563: -moz-border-radius: 10px 10px 0 0;
+564: -webkit-border-radius: 10px 10px 0 0;
+565: -khtml-border-radius: 10px 10px 0 0;
+566: border-radius: 10px 10px 0 0;
+==== css/style.css 2170-2182 ====
+2170: display:none;
+2171: }
+2172: 
+2173: 
+2174: .prod-image__bg{
+2175: background-position: center; width: 100%; height: 225px; background-size: contain; background-repeat: no-repeat;
+2176: }
+2177: .products-item{
+2178: overflow: visible;
+2179: }
+2180: .prod-title{
+2181: font-size: 16px;
+2182: }
+==== css/media.css 448-462 ====
+448: margin-bottom:30px;
+449: }
+450: 
+451: .products-item-fix{
+452: width:100%;
+453: }
+454: 
+455: .products-item .prod-image:after{
+456: padding-bottom:65%;
+457: }
+458: 
+459: .prod-buttons a:first-child{
+460: font-size:19px;
+461: }
+462: 
+==== css/custom-rebuild.css 1-14 ====
+1: /* ============ ГлавПостель rebuild v8 ============ */
+2: 
+3: /* ---- Карточка товара: галерея 3 фото ---- */
+4: .prod-image{height:auto !important;}
+5: .pgal{display:flex;gap:6px;height:236px;padding:8px;box-sizing:border-box;position:relative;z-index:14;}
+6: .pgal__thumbs{display:flex;flex-direction:column;gap:6px;width:60px;flex:0 0 60px;}
+7: .pgal__thumb{flex:1;min-height:0;background-size:cover;background-position:center;border-radius:6px;cursor:pointer;border:1px solid #e7e7e7;transition:border-color .15s,transform .15s;}
+8: .pgal__thumb:hover{border-color:#e8730c;transform:translateY(-1px);}
+9: .pgal__main{flex:1;background-size:cover;background-position:center;border-radius:8px;cursor:zoom-in;border:1px solid #eee;background-color:#fafafa;}
+10: @media(max-width:768px){.pgal{height:210px;}}
+11: .prod-sale{z-index:16 !important;}
+12: 
+13: /* ---- Лайтбокс товара ---- */
+14: .plx-overlay{position:fixed;inset:0;background:rgba(15,17,21,.80);z-index:99999;display:none;align-items:center;justify-content:center;padding:16px;}

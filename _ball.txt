@@ -1,0 +1,8 @@
+css/anim.css @11041: , 0, 0) rotate3d(0, 0, 1, 3deg);   }    45% {     -webkit-transform: translate3d(-15%, 0, 
+css/anim.css @11934: , 0, 0) rotate3d(0, 0, 1, 3deg);   }    45% {     -webkit-transform: translate3d(-15%, 0, 
+css/anim.css @23507: m: translate3d(0, 10px, 0);   }    40%, 45% {     opacity: 1;     -webkit-transform: trans
+css/anim.css @23881: m: translate3d(0, 10px, 0);   }    40%, 45% {     opacity: 1;     -webkit-transform: trans
+css/anim.css @25638: : translate3d(0, -10px, 0);   }    40%, 45% {     opacity: 1;     -webkit-transform: trans
+css/anim.css @26012: : translate3d(0, -10px, 0);   }    40%, 45% {     opacity: 1;     -webkit-transform: trans
+css/media.css @733: idth:50%; 	}  	.line-info-desc{ 		width:45%; 	}  	.line-items-box{ 		width:55%; 	}  	.line
+css/style.css @19028:  #0b0b0b;     font-size: 14px;     top: 45%;     margin-top: -9px;     right: -10px; }  .w

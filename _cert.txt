@@ -1,0 +1,6 @@
+51: k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+1412: <div class="box-title">Сертификаты качества</div>
+1415: <a class="fancybox" rel="gallery1" href="images/sert1.jpg"><img src="images/sert1.jpg"></a>
+1418: <a class="fancybox" rel="gallery2" href="images/sert2.jpg"><img src="images/sert2.jpg"></a>
+1424: <a class="fancybox" rel="gallery1" href="images/sert1.jpg"><img src="images/sert1.jpg"></a>
+1427: <a class="fancybox" rel="gallery2" href="images/sert2.jpg"><img src="images/sert2.jpg"></a>

@@ -1,0 +1,28 @@
+custom-rebuild.css:4: .prod-image{height:auto !important;}
+custom-rebuild.css:5: .pgal{display:flex;gap:6px;height:236px;padding:8px;box-sizing:border-box;position:relative;z-index:14;}
+custom-rebuild.css:6: .pgal__thumbs{display:flex;flex-direction:column;gap:6px;width:60px;flex:0 0 60px;}
+custom-rebuild.css:7: .pgal__thumb{flex:1;min-height:0;background-size:cover;background-position:center;border-radius:6px;cursor:pointer;border:1px solid #e7e7e7;transition:border-color .15s,transform .15s;}
+custom-rebuild.css:8: .pgal__thumb:hover{border-color:#e8730c;transform:translateY(-1px);}
+custom-rebuild.css:9: .pgal__main{flex:1;background-size:cover;background-position:center;border-radius:8px;cursor:zoom-in;border:1px solid #eee;background-color:#fafafa;}
+custom-rebuild.css:10: @media(max-width:768px){.pgal{height:210px;}}
+custom-rebuild.css:160: #scrubRibbon{display:none;}
+custom-rebuild.css:162: #scrubRibbon{
+custom-rebuild.css:176: #scrubRibbon.on{opacity:1;transform:translateX(0);pointer-events:auto;}
+custom-rebuild.css:177: #scrubRibbon .scrub-inner{display:flex;flex-direction:column;gap:2px;height:100%;}
+custom-rebuild.css:178: #scrubRibbon .scrub-thumb{
+custom-rebuild.css:188: #scrubRibbon .scrub-thumb.act{
+media.css:455: .products-item .prod-image:after{
+style.css:553: .products-item .prod-image{
+style.css:559: .products-item .prod-image img{
+style.css:2174: .prod-image__bg{
+custom-rebuild.js:181: var gals=document.querySelectorAll(".pgal");
+custom-rebuild.js:189: imgs.forEach(function(u,i){if(i!==active)thumbs+='<div class="pgal__thumb" data-i="'+i+'" style="'+bg(u)+'"></div>';});
+custom-rebuild.js:190: g.innerHTML='<div class="pgal__thumbs">'+thumbs+'</div><div class="pgal__main" style="'+bg(imgs[active])+'"></div>';
+custom-rebuild.js:195: var th=e.target.closest(".pgal__thumb");
+custom-rebuild.js:197: if(e.target.closest(".pgal__main")){openPlx(art,imgs,active);}
+custom-rebuild.js:375: if(document.getElementById("scrubRibbon"))return;
+custom-rebuild.js:379: var rib=document.createElement("div");rib.id="scrubRibbon";
+custom-rebuild.js:380: var inner=document.createElement("div");inner.className="scrub-inner";rib.appendChild(inner);
+custom-rebuild.js:382: var gal=it.querySelector(".pgal");
+custom-rebuild.js:385: var th=document.createElement("div");th.className="scrub-thumb";
+custom-rebuild.js:396: Array.prototype.forEach.call(inner.children,function(c,i){c.className="scrub-thumb"+(i===best?" act":"");});

@@ -1,0 +1,14 @@
+js/custom-rebuild.js:253: function openRvm(gIdx){
+js/custom-rebuild.js:285: openRvm(t?parseInt(t.getAttribute("data-g"),10):r.gStart);
+js/custom-rebuild.js:315: var sr=document.querySelector(".satin-reviews");
+js/custom-rebuild.js:344: var sr=document.querySelector(".satin-reviews");
+js/custom-rebuild.js:356: function scrollToReviews(){
+js/custom-rebuild.js:357: var sr=document.querySelector(".satin-reviews")||document.getElementById("rvRoot");
+js/custom-rebuild.js:360: function initReviewButtons(){
+js/custom-rebuild.js:367: b.className="to-reviews";
+js/custom-rebuild.js:369: b.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();scrollToReviews();});
+js/custom-rebuild.js:419: function init(){initGalleries();relocate();renderReviews();initReviewButtons();initShowMore();}
+js/script.js:30: $('.prod-buttons #sat_order').click(function () {
+js/script.js:73: $(document).on('click','#sat_order_full', function(){
+js/script.js:117: $(document).on('click','.prod-buttons-s #sat_ordering', function(){
+js/script.js:145: $('.prod-buttons #sat_ordering').click(function () {

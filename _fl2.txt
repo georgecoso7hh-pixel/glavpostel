@@ -1,0 +1,13 @@
+css/style.css:1738: .full-link{
+css/style.css:1739: position:absolute;
+css/style.css:1740: width:100%;
+css/style.css:1741: height:100%;
+css/style.css:1742: z-index:10;
+css/style.css:1743: }
+css/style.css:1744: 
+css/style.css:1745: /** **/
+css/style.css:1746: 
+css/style.css:1747: .fixed-button{
+css/style.css:1748: background: #9533bd;
+css/style.css:1749: font-family: 'Exo 2', sans-serif;
+----

@@ -1,0 +1,163 @@
+H198:             <div class="products-items clear" id="Container">
+H199:                 <ul class="products">
+H200:                     
+H201: 
+H202:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+H203:                         <div class="products-item">
+H204:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+H205:                             <div class="prod-image">
+H206:                                 <div class="pgal" data-art="1" data-imgs="photos/1-1.png,photos/1-2.png,photos/1-3.png"></div>
+H207:                                 <div class="prod-sale">-50%</div>
+H208:                             </div>
+H209:                             <div class="prod-desc" onclick="document.getElementById('color').value = '1';">
+H210:                                 <div class="prod-title">
+H211:                                     <div class="rating"><img src="images/ico2.png" alt="rating"></div><span id="name">АРТИКУЛ: <span id="art">1</span></span>
+H212:                                 </div>
+H213:                                 <div class="prod-info ">
+H214:                                     <!--	<div class="prod-info-item"><span class="weightbold">Плотность:</span> <span id="hlopok">Микрофайбер</span></div> -->
+H215:                                     <!-- <div class="prod-info-item"><span class="weightbold">Размер:</span> <span id="hlopok">1,5-спальный</span></div> -->
+H216:                                     <div class="prod-info-item"><span class="weightbold">Материал:</span> <span id="mat">Ткань: Сатин: 100% хлопок</span></div>
+H217:                                     <div class="prod-info-item"><span class="weightbold">Цена:</span> <span class="old-price">4580 руб</span> <span class="new-price">2290 руб</span></div>
+H218:                                 </div>
+H219:                                 <div class="prod-buttons">
+H220:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> заказать</a></div>
+H221:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">Подробнее</a></div>
+H222:                                 </div>
+H223:                                 <div class="additional_fields" style="display: none;">
+H224:                                     <div class="pillowcases">2 ШТ. 70x70</div>
+H225:                                     <div class="duvet-cover">1 ШТ. 175x215</div>
+H226:                                     <div class="bedsheet">1 ШТ. 175x215</div>
+H227:                                 </div>
+H228:                             </div>
+H229:                         </div>
+H230:                     </div>
+H231: 
+H232:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+H233:                         <div class="products-item">
+=== script.js 25..150 ===
+S25:       }, delay);
+S26: 
+S27:     });
+S28:   });
+S29: 
+S30:   $('.prod-buttons #sat_order').click(function () {
+S31: 
+S32:     // Переменные, которые необходимо вывести из кнопки
+S33:     var order_name, order_hlopok, order_mat, old_price, new_price, order_navoloch, order_pod, order_prost;
+S34: 
+S35:     // Кнопка, которая была нажата
+S36:     var button = $(this);
+S37: 
+S38:     // Узнаем родительский элемент
+S39:     var elem = button.parent().parent();
+S40: 
+S41:     // Получаем данные из блоков и сохраняем их в переменные
+S42:     order_name = elem.parent().parent().find('#name').text();
+S43:     order_hlopok = elem.parent().parent().find('#hlopok').text();
+S44:     order_mat = elem.parent().parent().find('#mat').text();
+S45:     old_price = elem.parent().parent().find('.old-price').text();
+S46:     new_price = elem.parent().parent().find('.new-price').text();
+S47:     order_navoloch = elem.parent().parent().find('.pillowcases').text();
+S48:     order_podo = elem.parent().parent().find('.duvet-cover').text();
+S49:     order_prostin = elem.parent().parent().find('.bedsheet').text();
+S50:     order_pod = elem.parent().parent().find('.prod-sale').text();
+S51:     order_prost = elem.parent().parent().find('.prod-sale').text();
+S52:     order_image = elem.parent().parent().find('.wp-post-image').attr('src');
+S53:     order_button_s = elem.parent().parent().find('.prod_s_but').html();
+S54: 
+S55:     // Блок подробнее
+S56:     var order_box = $('#ordering');
+S57: 
+S58:     // Ищем элементы и добавляем нужный текст
+S59:     order_box.find('#order_name').text(order_name);
+S60:     order_box.find('#order_hlopok').text(order_hlopok);
+S61:     order_box.find('#order_mat').text(order_mat);
+S62:     order_box.find('#old-price').text(old_price);
+S63:     order_box.find('#new-price').text(new_price);
+S64:     order_box.find('#order_navoloch').text(order_navoloch);
+S65:     order_box.find('#order_pod').text(order_podo);
+S66:     order_box.find('.prod-buttons-s').html(order_button_s);
+S67:     order_box.find('#order_prost').text(order_prostin);
+S68:     order_create_bg = 'background-image:url(' + order_image + ');';
+S69:      
+S70: 
+S71:   });
+S72: 
+S73:   $(document).on('click','#sat_order_full', function(){
+S74: 
+S75:   	// Переменные, которые необходимо вывести из кнопки
+S76:     var order_name, order_hlopok, order_mat, old_price, new_price, order_navoloch, order_pod, order_prost;
+S77: 
+S78:     // Кнопка, которая была нажата
+S79:     var button = $(this);
+S80: 
+S81:     // Узнаем родительский элемент
+S82:     var elem = button;
+S83: 
+S84:     // Получаем данные из блоков и сохраняем их в переменные
+S85:     order_name = elem.parent().find('#name').text();
+S86:     order_hlopok = elem.parent().find('#hlopok').text();
+S87:     order_mat = elem.parent().parent().find('#mat').text();
+S88:     old_price = elem.parent().parent().find('.old-price').text();
+S89:     new_price = elem.parent().parent().find('.new-price').text();
+S90:     order_navoloch = elem.parent().parent().find('.pillowcases').text();
+S91:     order_podo = elem.parent().parent().find('.duvet-cover').text();
+S92:     order_prostin = elem.parent().parent().find('.bedsheet').text();
+S93:     order_pod = elem.parent().parent().find('.prod-sale').text();
+S94:     order_prost = elem.parent().parent().find('.prod-sale').text();
+S95:     order_image = elem.parent().parent().find('.wp-post-image').attr('src');
+S96:     order_button_s = elem.parent().parent().find('.prod_s_but').html();
+S97:     console.log('Имя:' + order_name);
+S98:     // Блок подробнее
+S99:     var order_box = $('#ordering');
+S100: 
+S101:     // Ищем элементы и добавляем нужный текст
+S102:     order_box.find('#order_name').text(order_name);
+S103:     order_box.find('#order_hlopok').text(order_hlopok);
+S104:     order_box.find('#order_mat').text(order_mat);
+S105:     order_box.find('#old-price').text(old_price);
+S106:     order_box.find('#new-price').text(new_price);
+S107:     order_box.find('#order_navoloch').text(order_navoloch);
+S108:     order_box.find('#order_pod').text(order_podo);
+S109:     order_box.find('.prod-buttons-s').html(order_button_s);
+S110:     order_box.find('#order_prost').text(order_prostin);
+S111:     order_create_bg = 'background-image:url(' + order_image + ');';
+S112:    
+S113: 	$(document).find('#color').attr('value', order_name);
+S114:   });
+S115: 
+S116:   // Клик на кнопку заказать
+S117:   $(document).on('click','.prod-buttons-s #sat_ordering', function(){
+S118: 
+S119:     // Переменные, которые необходимо вывести из кнопки
+S120:     var order_art, order_o_price, order_o_image;
+S121: 
+S122:     // Кнопка, которая была нажата
+S123:     var button = $(this);
+S124: 
+S125:     // Узнаем родительский элемент
+S126:     var elem = button.parent().parent();
+S127: 
+S128:     // Получаем данные из блоков и сохраняем их в переменные
+S129:     order_art = elem.parent().parent().parent().find('#order_name').text();
+S130:     order_o_price = elem.find('#new-price').text();
+S131:     order_o_name = elem.parent().parent().find('.name').text();
+S132:     
+S133: 
+S134:     // Блок заказа
+S135:     var ordering_box = $('#order');
+S136: 
+S137:     // Ищем элементы и добавляем нужный текст
+S138:     ordering_box.find('#name').text(order_art);
+S139:     ordering_box.find('#price').text(order_o_price);
+S140:     ordering_box.find('.img').attr('style', order_o_image);
+S141: 
+S142:   });
+S143: 
+S144:   // Клик на кнопку заказать
+S145:   $('.prod-buttons #sat_ordering').click(function () {
+S146: 
+S147:     // Переменные, которые необходимо вывести из кнопки
+S148:     var order_art, order_o_price, order_o_image;
+S149: 
+S150:     // Кнопка, которая была нажата

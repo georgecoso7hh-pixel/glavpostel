@@ -1,0 +1,76 @@
+1526:                     <div class="prod-info-item"><span class="weightbold">Цена:</span> <span class="old-price"><span id="old-price"></span></span> <span class="new-price"><span id="new-price"></span></span></div>
+1527:                 </div>
+1528:                 <div class="prod-info">
+1529:                     <div class="prod-info-item"><span class="weightbold">Наволочки:</span> <span id="order_navoloch">70*70 - 2шт</span></div>
+1530:                     <div class="prod-info-item"><span class="weightbold">Пододеяльник:</span> <span id="order_pod">150*220</span></div>
+1531:                     <div class="prod-info-item"><span class="weightbold">Простыня:</span> <span id="order_prost">150*220</span></div>
+1532:                 </div>
+1533:                 <div class="prod-buttons-s">
+1534:                 </div>
+1535:             </div>
+1536:         </div>
+1537:     </div>
+1538:     <div class="callback" id="callback" style="display:none">
+1539:         <div class="title">Заказать звонок</div>
+1540:         <div class="form">
+1541:             <div class="lead-iframe-wrap"><iframe style="width:100%;min-height:520px;border:0;display:block;" src="https://xshopcart.com/form/?off=jDb0Tmxw&lnk=37383&m=6bbc9a6604ef&language=ru&country=RU&select=countrySelect&s=vZ6FME4Z&color=light&is_price=no" ></iframe></div>
+1542:         </div>
+1543:     </div>
+1544:     <div class="callback" id="suc_callback" style="display:none">
+1545:         <div class="suc_info">
+1546:             Наш менеджер в ближайшее время вам перезвонит
+1547:         </div>
+1548:     </div>
+1549:     <div id="order" class="order" style="display:none;">
+1550:         <div class="box_oder_image">
+1551:             <div class="box_order_fix">
+1552:                 <div class="box_order-logo">
+1553:                     <div class="ico"></div>
+1554:                     <div class="text">ГлавПостель</div>
+1555:                 </div>
+1556:                 <div class="home-info-box">
+1557:                     <div class="title">ВЫСОКОКАЧЕСТВЕННОЕ<br> ПОСТЕЛЬНОЕ БЕЛЬЕ</div>
+1558:                     <div class="description">Высококачественное, сертифицированное постельное белье от производителя!</div>
+1559:                 </div>
+1560:             </div>
+1561:             <div class="box_order_line">
+1562:                 <div class="ico"></div>
+1563:                 <div class="text">
+1564:                     <div class="item">БЕСПЛАТНАЯ ДОСТАВКА ПО всей россии</div>
+1565:                     <div class="item">При покупке от двух комплектов!</div>
+1566:                 </div>
+1567:             </div>
+1568:         </div>
+1569:         <div class="box_order_info">
+1570:             <div class="box_order_title">Ваш заказ</div>
+1571:             <div class="box_order_img">
+1572:                 <div class="block clear">
+1573:                      
+1574:                     <div class="info">
+1575:                         <div class="name" id="name"></div>
+1576:                         <div class="price">
+1577:                             <span class="gray">Итого:</span>
+1578:                             <span><span id="price"></span> <span class="small"></span></span>
+1579:                         </div>
+1580:                     </div>
+1581:                 </div>
+1582:                 <div class="form">
+1583:                     <div class="lead-iframe-wrap"><iframe style="width:100%;min-height:520px;border:0;display:block;" src="https://xshopcart.com/form/?off=jDb0Tmxw&lnk=37383&m=6bbc9a6604ef&language=ru&country=RU&select=countrySelect&s=vZ6FME4Z&color=light&is_price=no" ></iframe></div>
+1584:                 </div>
+1585:             </div>
+1586:         </div>
+1587:     </div>
+1588:     <div id="order_suc" class="order" style="display:none;">
+1589:         <div class="box_oder_image">
+1590:             <div class="box_order_fix">
+1591:                 <div class="box_order-logo">
+1592:                     <div class="ico"></div>
+1593:                     <div class="text">ГлавПостель</div>
+1594:                 </div>
+1595:                 <div class="home-info-box">
+1596:                     <div class="title">ВЫСОКОКАЧЕСТВЕННОЕ<br> ПОСТЕЛЬНОЕ БЕЛЬЕ</div>
+1597:                     <div class="description">Высококачественное, сертифицированное постельное белье от производителя!</div>
+1598:                 </div>
+1599:             </div>
+1600:             <div class="box_order_line">
+1601:                 <div class="ico"></div>

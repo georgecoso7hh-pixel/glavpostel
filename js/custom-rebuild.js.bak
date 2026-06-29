@@ -169,11 +169,11 @@ function openPlx(art,imgs,start){
  plxOv.classList.add("open");
 }
 function closePlx(){if(plxOv)plxOv.classList.remove("open");}
-function setOrderInfo(art){var nm=document.getElementById("name");if(nm&&art){nm.innerHTML='<span class="ord-art">\u0410\u0440\u0442\u0438\u043a\u0443\u043b: '+art+'</span>';}var pr=document.getElementById("price");if(pr){pr.textContent='2290 \u0440\u0443\u0431';}}function doOrder(art){
+function doOrder(art){
  var c=document.getElementById("color");if(c&&art)c.value=art;
  closePlx();closeRvm();
  var t=document.querySelector('a.modal[href="#order"]');
- if(t){t.click();}else{location.hash="#order";}setOrderInfo(art);setTimeout(function(){setOrderInfo(art);},80);setTimeout(function(){setOrderInfo(art);},260);
+ if(t){t.click();}else{location.hash="#order";}
 }
 
 /* ===================== ГАЛЕРЕЯ КАРТОЧКИ ТОВАРА ===================== */

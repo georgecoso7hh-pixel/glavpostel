@@ -1,0 +1,17 @@
+media.css:317: .cert-items .cert-item{
+media.css:477: .satin-cert{
+media.css:481: .cert-items.desktop{
+media.css:485: .satin-cert .wrapper{
+media.css:489: .cert-items{
+media.css:494: .mobile-items{
+media.css:503: .cert-items .cert-item{
+media.css:507: .satin-cert .box-title{
+style.css:925: .satin-cert{
+style.css:930: .satin-cert .box-title{
+style.css:934: .cert-items{
+style.css:939: .cert-items .cert-item{
+style.css:945: .cert-items .cert-item img{
+style.css:950: .cert-item img{
+style.css:1588: .mobile-items{
+script.js:218: $(".cert-items a").fancybox({
+script.js:296: $('.mobile-items .cert-items').slick({

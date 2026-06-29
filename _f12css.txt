@@ -1,0 +1,18 @@
+/* ===== Показать ещё ===== */
+.pi-hidden{display:none !important;}
+.show-more-btn{
+  display:block;
+  margin:20px auto 8px;
+  background:#e8730c;
+  color:#fff;
+  border:none;
+  font-size:16px;
+  font-weight:700;
+  padding:13px 34px;
+  border-radius:10px;
+  cursor:pointer;
+  box-shadow:0 4px 14px rgba(232,115,12,.35);
+  transition:background .2s,transform .1s;
+}
+.show-more-btn:hover{background:#cf6306;}
+.show-more-btn:active{transform:translateY(1px);}

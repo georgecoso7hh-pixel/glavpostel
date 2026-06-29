@@ -1,0 +1,51 @@
+/* ===== Кнопка Отзывы ===== */
+.prod-buttons{position:relative;z-index:5;}
+.prod-buttons .to-reviews{
+  display:inline-block;
+  background:#e8730c;
+  color:#fff !important;
+  font-weight:700;
+  padding:8px 18px;
+  border-radius:8px;
+  text-decoration:none !important;
+  line-height:1.1;
+  transition:background .2s;
+}
+.prod-buttons .to-reviews:hover{background:#cf6306;color:#fff !important;}
+
+/* ===== Микро-лента быстрой прокрутки (мобил) ===== */
+#scrubRibbon{display:none;}
+@media (max-width:768px){
+  #scrubRibbon{
+    display:block;
+    position:fixed;
+    top:8%;right:0;
+    height:84%;width:30px;
+    background:rgba(18,18,22,.88);
+    border-radius:12px 0 0 12px;
+    box-shadow:-2px 0 10px rgba(0,0,0,.35);
+    z-index:99999;
+    opacity:0;transform:translateX(10px);
+    transition:opacity .25s,transform .25s;
+    pointer-events:none;
+    padding:4px 3px;box-sizing:border-box;overflow:hidden;
+  }
+  #scrubRibbon.on{opacity:1;transform:translateX(0);pointer-events:auto;}
+  #scrubRibbon .scrub-inner{display:flex;flex-direction:column;gap:2px;height:100%;}
+  #scrubRibbon .scrub-thumb{
+    flex:1 1 0;min-height:0;
+    border-radius:3px;
+    background-size:cover;background-position:center;
+    filter:brightness(.55) saturate(.85);
+    opacity:.7;
+    border:1px solid transparent;
+    cursor:pointer;
+    transition:filter .15s,opacity .15s,border-color .15s,transform .15s;
+  }
+  #scrubRibbon .scrub-thumb.act{
+    filter:brightness(1.05) saturate(1.05);
+    opacity:1;
+    border-color:#e8730c;
+    transform:scale(1.04);
+  }
+}

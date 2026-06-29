@@ -1,0 +1,7 @@
++[char]39+"+u+"+[char]39+)";}'"+u+"')";}
+~~~SPLIT~~~
+function bg(u){return "background-image:url('"+u+"')";}
+~~~SPLIT~~~
+rvmStage.innerHTML='+[char]39++m.src++[char]39+" controls'+m.src+'" controls
+~~~SPLIT~~~
+rvmStage.innerHTML='<video src="'+m.src+'" controls

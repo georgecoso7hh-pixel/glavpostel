@@ -1,0 +1,44 @@
+/* ===== Кнопка Отзывы + микро-лента прокрутки ===== */
+function scrollToReviews(){
+ var sr=document.querySelector(".satin-reviews")||document.getElementById("rvRoot");
+ if(sr)sr.scrollIntoView({behavior:"smooth",block:"start"});
+}
+function initReviewButtons(){
+ var items=document.querySelectorAll(".prod-buttons .item");
+ Array.prototype.forEach.call(items,function(it){
+  if(it.classList.contains("prod_s_but"))return;
+  var a=it.querySelector("a");if(!a)return;
+  a.textContent="\u041e\u0442\u0437\u044b\u0432\u044b";
+  a.classList.remove("modal");
+  a.classList.add("to-reviews");
+  a.setAttribute("href","javascript:void(0)");
+  a.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();scrollToReviews();});
+ });
+}
+function initScrollRibbon(){
+ if(window.innerWidth>768)return;
+ var items=Array.prototype.slice.call(document.querySelectorAll(".products-item-fix"));
+ if(items.length<3)return;
+ var rib=document.createElement("div");rib.id="scrubRibbon";
+ var inner=document.createElement("div");inner.className="scrub-inner";rib.appendChild(inner);
+ items.forEach(function(it,i){
+  var gal=it.querySelector(".pgal");
+  var imgs=((gal&&gal.getAttribute("data-imgs"))||"").split(",").filter(Boolean);
+  var src=imgs[0]||"";
+  var th=document.createElement("div");th.className="scrub-thumb";
+  if(src)th.style.backgroundImage="url('"+src+"')";
+  (function(idx){th.onclick=function(){items[idx].scrollIntoView({behavior:"smooth",block:"center"});};})(i);
+  inner.appendChild(th);
+ });
+ document.body.appendChild(rib);
+ var hideT;
+ function show(){rib.classList.add("on");clearTimeout(hideT);hideT=setTimeout(function(){rib.classList.remove("on");},1100);}
+ function highlight(){
+  var mid=window.innerHeight/2,best=-1,bestD=1e9;
+  items.forEach(function(it,i){var r=it.getBoundingClientRect();var c=r.top+r.height/2;var d=Math.abs(c-mid);if(d<bestD){bestD=d;best=i;}});
+  Array.prototype.forEach.call(inner.children,function(c,i){c.className="scrub-thumb"+(i===best?" act":"");});
+ }
+ var tk;
+ window.addEventListener("scroll",function(){show();clearTimeout(tk);tk=setTimeout(highlight,40);},{passive:true});
+ highlight();
+}

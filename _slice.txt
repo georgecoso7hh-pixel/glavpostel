@@ -1,0 +1,305 @@
+### css/style.css 287-460
+287: .home-line{
+288:     background-image: linear-gradient(180deg, #a730d5 0%, #8f40ae 100%);
+289:     position:relative;
+290: }
+291: 
+292: .line-desc{
+293:     color:#fff;
+294:     display:table-cell;
+295:     vertical-align:top;
+296:     width:48%;
+297:     position:relative;
+298: }
+299: 
+300: .line-desc .ico{
+301:     background: url(../images/sprite.png)/*tpa=http://glavpostel.biz/images/sprite.png*/no-repeat;
+302:     background-position: -181px 0;
+303:     width: 56px;
+304:     height: 56px;
+305:     position: absolute;
+306:     right: 550px;
+307:     top: 19px;
+308: }
+309: 
+310: .home-line-box{
+311:     display:table;
+312:     width:100%;
+313:     position:relative;
+314: }
+315: 
+316: .line-info-desc{
+317:     color:#fff;
+318:     display:table-cell;
+319:     vertical-align:middle;
+320:     width:40%;
+321: }
+322: 
+323: .line-info-desc .title{
+324:     font-family:'BebasB';
+325:     font-size:24px;
+326:     letter-spacing:1px;
+327: }
+328: 
+329: .line-info-desc .desc{
+330:     font-size:17px;
+331:     font-family:'ArialB';
+332:     margin-top:5px;
+333:     letter-spacing:0.1px;
+334: }
+335: 
+336: .line-items{
+337:     background:#e7e7e7;
+338:     display:table-cell;
+339:     vertical-align:top;
+340:     height:98px;
+341:     width:52%;
+342:     position:relative;
+343: }
+344: 
+345: .line-items:after{
+346:     background:url(../images/ico1.png)/*tpa=http://glavpostel.biz/images/ico1.png*/no-repeat;
+347:     width:173px;
+348:     height:98px;
+349:     content:'';
+350:     display:block;
+351:     position:absolute;
+352:     left:-173px;
+353:     top:0px;
+354: }
+355: 
+356: .home-line-info{
+357:     position:absolute;
+358:     top:0;
+359:     left:0;
+360:     width:100%;
+361:     height:100%;
+362: }
+363: 
+364: .dt{
+365:     display:table;
+366:     height:100%;
+367:     width:100%;
+368: }
+369: 
+370: .home-line-info .wrapper{
+371:     height:100%;
+372: }
+373: 
+374: .line-items-box{
+375:     vertical-align:middle;
+376:     display:table-cell;
+377:     width:60%;
+378:     padding-right:40px;
+379: }
+380: 
+381: .line-items-box .line-item{
+382:     float:left;
+383:     width:50%;
+384:     padding:0 20px;
+385: }
+386: 
+387: .line-items-box .line-item:first-child{
+388:     padding-left:0px;
+389:     position:relative;
+390: }
+391: 
+392: .line-items-box .line-item:first-child:after{
+393:     background:#979797;
+394:     height:100%;
+395:     width:1px;
+396:     content:'';
+397:     display:block;
+398:     position:absolute;
+399:     right:29px;
+400:     top:0;
+401: }
+402: 
+403: .line-items-box .line-item:last-child{
+404:     padding-right:0px;
+405: }
+406: 
+407: .line-item .ico{
+408:     display:table-cell;
+409:     vertical-align:middle;
+410: }
+411: 
+412: .line-item .ico:after{
+413:     content:'';
+414:     display:block;
+415:     background:url(../images/sprite.png)/*tpa=http://glavpostel.biz/images/sprite.png*/no-repeat;
+416:     width: 40px;
+417:     height: 40px;
+418:     background-position: -84px -46px;
+419: }
+420: 
+421: .line-items-box .line-item:nth-child(2) .ico:after{
+422:     background-position:-84px -46px;
+423:     height:40px;
+424:     width:40px;
+425: }
+426: 
+427: .line-item .info{
+428:     display:table-cell;
+429:     padding-left:20px;
+430:     vertical-align:middle;
+431: }
+432: 
+433: .line-item .info .title{
+434:     font-size:18px;
+435:     font-family:'ArialB';
+436:     text-transform:uppercase;
+437:     color:#000000;
+438: }
+439: 
+440: .line-item .info .desc{
+441:     font-size:18px;
+442:     color:#2f2f2f;
+443: }
+444: 
+445: /* ---------------------- END LINE ---------------------- */
+446: 
+447: /* ---------------------- PRODUCTS ---------------------- */
+448: 
+449: .products-box{
+450:     padding:50px 0;
+451:     padding-bottom:90px;
+452: }
+453: 
+454: ul.products-filter{
+455:     margin: 0;
+456:     padding: 0;
+457:     margin-bottom: 65px;
+458:     display: table;
+459: }
+460: 
+### css/style.css 530-545
+530: .products-nav a:hover{
+531:     text-decoration:none;
+532: }
+533: 
+534: /** PRODUCTS ITEMS **/
+535: 
+536: .products-item-fix{
+537:     width:33.33%;
+538:     float:left;
+539:     padding:0 20px;
+540:     margin-bottom:50px;
+541: }
+542: 
+543: .products-item{
+544:     box-shadow:0 2px 4px 0 rgba(0,0,0,0.2);
+545:     -moz-border-radius: 10px;
+### css/style.css 1685-1695
+1685: }
+1686: 
+1687: ul.products{
+1688: 	margin:0;
+1689: 	padding:0;
+1690: }
+1691: 
+1692: .modal-page{
+1693: padding:50px 0;
+1694:     font-size: 18px;
+1695:     color: #2f2f2f;
+### css/media.css 400-460
+400: 		max-width:70%;
+401: 		margin:0 auto;
+402: 	}
+403: 
+404: 	.line-items-box{
+405: 		display:none;
+406: 	}
+407: 
+408: 	.home-line{
+409: 		background-image: linear-gradient(180deg, #ff886a 0%, #ff3f64 100%);
+410: 	}
+411: 
+412: 	.line-items{
+413: 		background:none;
+414: 	}
+415: 
+416: 	.line-items:after{
+417: 		left:inherit;
+418: 		right:0px;
+419: 		opacity:0.2;
+420: 	}
+421: 
+422: 	.line-info-desc{
+423: 		width:100%;
+424: 		text-align:center;
+425: 	}
+426: 
+427: 	.line-info-desc .title{
+428: 		font-size:24px;
+429: 	}
+430: 
+431: 	.line-info-desc .desc{
+432: 		font-size:17px;
+433: 	}
+434: 
+435: 	.products-box{
+436: 		padding:30px 0;
+437: 	}
+438: 
+439: 	ul.products-filter li{
+440: 		width:50%;
+441: 	}
+442: 
+443: 	ul.products-filter{
+444: 		margin-bottom:15px;
+445: 	}
+446: 
+447: 	.products-nav{
+448: 		margin-bottom:30px;
+449: 	}
+450: 
+451: 	.products-item-fix{
+452: 		width:100%;
+453: 	}
+454: 
+455: 	.products-item .prod-image:after{
+456: 		padding-bottom:65%;
+457: 	}
+458: 
+459: 	.prod-buttons a:first-child{
+460: 		font-size:19px;
+### css/media.css 90-105
+90: 		width:33.33%;
+91: 		margin-bottom:15px;
+92: 	}
+93: 
+94: 	ul.products-filter{
+95: 		margin-bottom:35px;
+96: 	}
+97: 
+98: 	.products-item-fix{
+99: 		width:50%;
+100: 	}
+101: 
+102: 	#Container{
+103: 		padding-bottom:0px;
+104: 	}
+105: 
+### css/media.css 250-270
+250: 	}
+251: 
+252: 	.satin-intro .description{
+253: 		width:70%;
+254: 	}
+255: 
+256: }
+257: 
+258: @media screen and (max-width: 690px){
+259: 
+260: 	.products-item-fix{
+261: 		padding:0 10px;
+262: 	}
+263: 
+264: 	.prod-buttons .item:first-child a, .prod-buttons-s a{
+265: 		font-size:17px;
+266: 	}
+267: 
+268: 	.prod-buttons .item:nth-child(2) a{
+269: 		font-size:15px;
+270: 	}

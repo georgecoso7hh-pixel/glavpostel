@@ -1,0 +1,34 @@
+1403: 					</div>
+1404:                     </div>
+1405:                 </div>
+1406:             </div>
+1407:         </div>
+1408:     </section>
+1409:     <section>
+1410:         <div class="satin-cert">
+1411:             <div class="wrapper">
+1412:                 <div class="box-title">Сертификаты качества</div>
+1413:                 <div class="cert-items clear desktop">
+1414:                     <div class="cert-item">
+1415:                         <a class="fancybox" rel="gallery1" href="images/sert1.jpg"><img src="images/sert1.jpg"></a>
+1416:                     </div>
+1417:                     <div class="cert-item">
+1418:                         <a class="fancybox" rel="gallery2" href="images/sert2.jpg"><img src="images/sert2.jpg"></a>
+1419:                     </div>
+1420:                 </div>
+1421:                 <div class="mobile-items">
+1422:                     <div class="cert-items clear">
+1423:                         <div class="cert-item">
+1424:                             <a class="fancybox" rel="gallery1" href="images/sert1.jpg"><img src="images/sert1.jpg"></a>
+1425:                         </div>
+1426:                         <div class="cert-item">
+1427:                             <a class="fancybox" rel="gallery2" href="images/sert2.jpg"><img src="images/sert2.jpg"></a>
+1428:                         </div>
+1429:                     </div>
+1430:                 </div>
+1431:             </div>
+1432:         </div>
+1433:     </section>
+1434:     <section>
+1435:         <div class="satin-work">
+1436:             <div class="wrapper">

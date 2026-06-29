@@ -1,0 +1,77 @@
+25:     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+26:     <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700" rel="stylesheet">
+27: 	 <script src="maskinput.js"></script>
+28: 	<script type="text/javascript">
+29:    jQuery(function($){
+30:    $(".rumask").mask("+7(999) 999-99-99");
+31:    });
+32: </script>
+33: 
+34: 
+35: <style id="lead-fix">
+36: .callback{ width:460px !important; max-width:95vw; padding:20px !important; background-image:none !important; background:#fff !important; border-radius:12px; }
+37: .callback .title{ margin:0 0 12px !important; color:#333 !important; position:relative; z-index:2; text-align:center; font-weight:700; }
+38: .callback .form{ width:100%; }
+39: .lead-iframe-wrap{ background:#fff; border-radius:8px; overflow:hidden; }
+40: .lead-iframe-wrap iframe{ width:100% !important; min-height:480px; border:0; display:block; }
+41: #order .lead-iframe-wrap iframe{ min-height:560px; }
+42: #order .box_order_form, #order .form{ width:100%; }
+43: </style>
+44: 
+45: <!-- Yandex.Metrika counter -->
+46: <script type="text/javascript">
+47:     (function(m,e,t,r,i,k,a){
+48:         m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+49:         m[i].l=1*new Date();
+50:         for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+51:         k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+52:     })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=110150078', 'ym');
+53: 
+54:     ym(110150078, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+55: </script>
+56: <noscript><div><img src="https://mc.yandex.ru/watch/110150078" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+57: <!-- /Yandex.Metrika counter -->
+58: <script>
+59: document.addEventListener('click', function(e){
+60:   var a = e.target.closest('a[href="#order"], a[href="#callback"], a.cb, #sat_ordering, #sat_order');
+61:   if(a && window.ym){ ym(110150078, 'reachGoal', 'lead_form_open'); }
+62: });
+63: </script>
+64: <!-- AitiBot good_rsy_engaged -->
+65: <script src="https://aitibot.ru/rsy-mvp/tag.js" data-rsy-key="rsy_f4da13a9a59d4981a6ff3744f1dcb54f" async></script>
+66: <script>
+67: /* FORM_INTENT bridge для iframe-формы (xshopcart) и кастомных CTA.
+68:    Тег ловит FORM_INTENT по фокусу на нативном input/textarea/select.
+69:    На этом лендинге форма — внешний iframe, фокус в него не всплывает,
+70:    поэтому при намерении заказать мы фокусируем скрытый нативный input,
+71:    чтобы штатный markFormIntent тега сработал (ветка A). */
+72: (function(){
+73:   function makeProbe(){
+74:     var inp = document.getElementById('rsy-formintent-probe');
+75:     if(inp) return inp;
+76:     inp = document.createElement('input');
+77:     inp.type='text'; inp.id='rsy-formintent-probe';
+78:     inp.setAttribute('autocomplete','off'); inp.setAttribute('tabindex','-1'); inp.setAttribute('aria-hidden','true');
+79:     inp.style.cssText='position:fixed;left:-9999px;top:0;width:1px;height:1px;opacity:0;pointer-events:none;';
+80:     document.body.appendChild(inp);
+81:     return inp;
+82:   }
+83:   function fireIntent(){
+84:     try{ var p=makeProbe(); p.focus(); setTimeout(function(){ try{p.blur();}catch(e){} },50); }catch(e){}
+85:   }
+86:   // 1) клики по CTA, открывающим форму заказа
+87:   document.addEventListener('click', function(e){
+88:     if(e.target.closest('a[href="#order"], a[href="#callback"], a.cb, #sat_ordering, #sat_order, .lead-iframe-wrap')){
+89:       fireIntent();
+90:     }
+91:   }, true);
+92:   // 2) фокус ушёл в iframe формы (юзер тыкнул внутрь xshopcart)
+93:   window.addEventListener('blur', function(){
+94:     setTimeout(function(){
+95:       var a=document.activeElement;
+96:       if(a && a.tagName==='IFRAME' && /xshopcart\.com/.test(a.src||'')) fireIntent();
+97:     }, 0);
+98:   });
+99: })();
+100: </script>
+101: <!-- /AitiBot -->

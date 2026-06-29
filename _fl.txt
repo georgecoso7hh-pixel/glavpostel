@@ -1,0 +1,204 @@
+css/style.css:678: .prod-buttons, .prod-buttons-s{
+css/style.css:679: margin-top:33px;
+css/style.css:680: }
+css/style.css:681: 
+css/style.css:682: .prod-buttons .item:first-child a{
+css/style.css:683: position:relative;
+css/style.css:684: z-index:20;
+css/style.css:685: }
+----
+css/style.css:682: .prod-buttons .item:first-child a{
+css/style.css:683: position:relative;
+css/style.css:684: z-index:20;
+css/style.css:685: }
+css/style.css:686: 
+css/style.css:687: .prod-buttons .item:first-child a, .prod-buttons-s a{
+css/style.css:688: background-image: linear-gradient(180deg, #ff886a 0%, #ff3f64 100%);
+css/style.css:689: color:#fff;
+----
+css/style.css:687: .prod-buttons .item:first-child a, .prod-buttons-s a{
+css/style.css:688: background-image: linear-gradient(180deg, #ff886a 0%, #ff3f64 100%);
+css/style.css:689: color:#fff;
+css/style.css:690: text-decoration:none;
+css/style.css:691: border-radius:10px;
+css/style.css:692: padding:10px 23px;
+css/style.css:693: display:inline-block;
+css/style.css:694: font-family:'Bebas';
+----
+css/style.css:701: .prod-buttons .item:first-child a .fa, .prod-buttons-s a .fa{
+css/style.css:702: padding-right:7px;
+css/style.css:703: }
+css/style.css:704: 
+css/style.css:705: .prod-buttons .item{
+css/style.css:706: display:inline-block;
+css/style.css:707: vertical-align:middle;
+css/style.css:708: }
+----
+css/style.css:705: .prod-buttons .item{
+css/style.css:706: display:inline-block;
+css/style.css:707: vertical-align:middle;
+css/style.css:708: }
+css/style.css:709: 
+css/style.css:710: #formOrderOneClick{
+css/style.css:711: position:absolute;
+css/style.css:712: }
+----
+css/style.css:714: .prod-buttons .item:nth-child(2) a{
+css/style.css:715: display:inline-block;
+css/style.css:716: font-size:17px;
+css/style.css:717: text-decoration:none;
+css/style.css:718: color:#505050;
+css/style.css:719: margin-left:13px;
+css/style.css:720: }
+css/style.css:721: 
+----
+css/style.css:723: .prod-buttons .item:first-child a:hover, .prod-buttons-s a:hover{
+css/style.css:724: background-image: linear-gradient(180deg, #ff3f64 0%, #ff3f64 100%);
+css/style.css:725: }
+css/style.css:726: 
+css/style.css:727: .prod-buttons .item:nth-child(2) a:hover{
+css/style.css:728: color:#000;
+css/style.css:729: }
+css/style.css:730: 
+----
+css/style.css:727: .prod-buttons .item:nth-child(2) a:hover{
+css/style.css:728: color:#000;
+css/style.css:729: }
+css/style.css:730: 
+css/style.css:731: /** NAV FIX **/
+css/style.css:732: 
+css/style.css:733: .nav-fix .products-nav{
+css/style.css:734: margin:0;
+----
+css/style.css:1738: .full-link{
+css/style.css:1739: position:absolute;
+css/style.css:1740: width:100%;
+css/style.css:1741: height:100%;
+css/style.css:1742: z-index:10;
+css/style.css:1743: }
+css/style.css:1744: 
+css/style.css:1745: /** **/
+----
+css/media.css:7: .prod-buttons a:first-child{
+css/media.css:8: font-size:16px;
+css/media.css:9: }
+css/media.css:10: 
+css/media.css:11: .prod-buttons a:nth-child(2){
+css/media.css:12: font-size:15px;
+css/media.css:13: }
+css/media.css:14: 
+----
+css/media.css:11: .prod-buttons a:nth-child(2){
+css/media.css:12: font-size:15px;
+css/media.css:13: }
+css/media.css:14: 
+css/media.css:15: }
+css/media.css:16: 
+css/media.css:17: @media screen and (max-width: 1060px){
+css/media.css:18: .products-item-fix{
+----
+css/media.css:264: .prod-buttons .item:first-child a, .prod-buttons-s a{
+css/media.css:265: font-size:17px;
+css/media.css:266: }
+css/media.css:267: 
+css/media.css:268: .prod-buttons .item:nth-child(2) a{
+css/media.css:269: font-size:15px;
+css/media.css:270: }
+css/media.css:271: 
+----
+css/media.css:268: .prod-buttons .item:nth-child(2) a{
+css/media.css:269: font-size:15px;
+css/media.css:270: }
+css/media.css:271: 
+css/media.css:272: 
+css/media.css:273: .home-info-box .title{
+css/media.css:274: font-size:19px;
+css/media.css:275: }
+----
+css/media.css:305: .prod-buttons a:first-child{
+css/media.css:306: font-size:15px;
+css/media.css:307: }
+css/media.css:308: 
+css/media.css:309: .prod-buttons a:nth-child(2){
+css/media.css:310: font-size:15px;
+css/media.css:311: }
+css/media.css:312: 
+----
+css/media.css:309: .prod-buttons a:nth-child(2){
+css/media.css:310: font-size:15px;
+css/media.css:311: }
+css/media.css:312: 
+css/media.css:313: .box-title{
+css/media.css:314: font-size:24px;
+css/media.css:315: }
+css/media.css:316: 
+----
+css/media.css:343: .prod-buttons .item:first-child a, .prod-buttons-s a{
+css/media.css:344: padding:10px 17px;
+css/media.css:345: }
+css/media.css:346: }
+css/media.css:347: 
+css/media.css:348: @media screen and (max-width: 610px){
+css/media.css:349: 
+css/media.css:350: header .logo{
+----
+css/media.css:459: .prod-buttons a:first-child{
+css/media.css:460: font-size:19px;
+css/media.css:461: }
+css/media.css:462: 
+css/media.css:463: .prod-buttons a:nth-child(2){
+css/media.css:464: font-size:17px;
+css/media.css:465: }
+css/media.css:466: 
+----
+css/media.css:463: .prod-buttons a:nth-child(2){
+css/media.css:464: font-size:17px;
+css/media.css:465: }
+css/media.css:466: 
+css/media.css:467: .satin-reviews .reviews-item-fix{
+css/media.css:468: margin-bottom:20px;
+css/media.css:469: width:100%;
+css/media.css:470: padding:0;
+----
+css/media.css:641: .prod-buttons a:first-child{
+css/media.css:642: font-size:16px;
+css/media.css:643: }
+css/media.css:644: 
+css/media.css:645: .prod-buttons a:nth-child(2){
+css/media.css:646: font-size:14px;
+css/media.css:647: }
+css/media.css:648: 
+----
+css/media.css:645: .prod-buttons a:nth-child(2){
+css/media.css:646: font-size:14px;
+css/media.css:647: }
+css/media.css:648: 
+css/media.css:649: }
+----
+css/custom-rebuild.css:145: .prod-buttons{position:relative;z-index:5;}
+css/custom-rebuild.css:146: .prod-buttons .to-reviews{
+css/custom-rebuild.css:147: display:inline-block;
+css/custom-rebuild.css:148: background:#e8730c;
+css/custom-rebuild.css:149: color:#fff !important;
+css/custom-rebuild.css:150: font-weight:700;
+css/custom-rebuild.css:151: padding:8px 18px;
+css/custom-rebuild.css:152: border-radius:8px;
+----
+css/custom-rebuild.css:146: .prod-buttons .to-reviews{
+css/custom-rebuild.css:147: display:inline-block;
+css/custom-rebuild.css:148: background:#e8730c;
+css/custom-rebuild.css:149: color:#fff !important;
+css/custom-rebuild.css:150: font-weight:700;
+css/custom-rebuild.css:151: padding:8px 18px;
+css/custom-rebuild.css:152: border-radius:8px;
+css/custom-rebuild.css:153: text-decoration:none !important;
+----
+css/custom-rebuild.css:157: .prod-buttons .to-reviews:hover{background:#cf6306;color:#fff !important;}
+css/custom-rebuild.css:158: 
+css/custom-rebuild.css:159: /* ===== Микро-лента быстрой прокрутки (мобил) ===== */
+css/custom-rebuild.css:160: #scrubRibbon{display:none;}
+css/custom-rebuild.css:161: @media (max-width:768px){
+css/custom-rebuild.css:162: #scrubRibbon{
+css/custom-rebuild.css:163: display:block;
+css/custom-rebuild.css:164: position:fixed;
+----

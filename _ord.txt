@@ -1,0 +1,278 @@
+1481:             <div class="images-item" style="background-image:url(images/image7.jpg);"></div>
+1482:             <div class="images-item" style="background-image:url(images/image8.jpg);"></div>
+1483:             <div class="images-item" style="background-image:url(images/image9.jpg);"></div>
+1484:             <div class="images-item" style="background-image:url(images/image10.jpg);"></div>
+1485:             <div class="images-item" style="background-image:url(images/image11.jpg);"></div>
+1486:             <div class="images-item" style="background-image:url(images/image12.jpg);"></div>
+1487:         </div>
+1488:     </section>
+1489:     <footer>
+1490:         <div class="wrapper">
+1491:             <div class="footer-info">
+1492:                 <div class="footer-logo">
+1493:                     <div class="ico"></div>
+1494:                     <div class="text">Р“Р»Р°РІРџРѕСЃС‚РµР»СЊ</div>
+1495:                 </div>
+1496:                 <!-- <div class="description">
+1497: 				РћРћРћ"Р“Р»Р°РІРџРѕСЃС‚РµР»СЊ", РћР“Р Рќ 1027700846935,<br/>
+1498: 				РРќРќ 7706275937,СЋСЂ. Р°РґСЂРµСЃ: РњРѕСЃРєРІР°, СѓР». РџСЂРѕР»РµС‚Р°СЂСЃРєР°СЏ, 7 
+1499: 			</div>	-->
+1500:             </div>
+1501:             <div class="footer-link">
+1502:                 <div class="item"><div class="foot_ru_center" style="text-align: center; margin: 0px auto; padding: 30px;">
+1503: <p style="margin:4px 0;">РћР‘Р©Р•РЎРўР’Рћ РЎ РћР“Р РђРќРР§Р•РќРќРћР™ РћРўР’Р•РўРЎРўР’Р•РќРќРћРЎРўР¬Р® "Р’РР›РЎРђРќ"</p>
+1504: <p style="margin:4px 0;">394033, Р’РћР РћРќР•Р–РЎРљРђРЇ РћР‘Р›РђРЎРўР¬, Р“.Рћ. Р“РћР РћР” Р’РћР РћРќР•Р–, Р“. Р’РћР РћРќР•Р–, РЈР›. Р—Р•РњР›РЇР§РљР, Р”. 21  РћР“Р Рќ: 1263600006350, РРќРќ: 3663177696, РљРџРџ: 366301001   e-mail: vilsan@mail.ru; skapy: vilsan</p>
+1505: <p class="conf-link doclinks" style="margin:10px 0;">
+1506:   <a class="nav-link" href="policy2.html" target="_blank">РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a>
+1507: </p>
+1508:                 </div>
+1509:                 </div>
+1510:                 <!--	<div class="item"><a href="#politik" id="gpolitik">РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРёС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></div>
+1511: 			<div class="item"><a href="#oferta" id="goferta">РџСѓР±Р»РёС‡РЅР°СЏ РѕС„РµСЂС‚Р°</a></div> -->
+1512:             </div>
+1513:         </div>
+1514:     </footer>
+1515:     <div id="gotop"></div>
+1516:     <div class="order-box" id="ordering" style="display:none">
+1517:       
+1518:         <div class="order-info">
+1519:             <div class="prod-desc">
+1520:                 <div class="prod-title">
+1521:                     <div class="rating"><img src="images/ico2.png" alt="rating"></div> <span id="order_name"></span>
+1522:                 </div>
+1523:                 <div class="prod-info fixing">
+1524:                     <div class="prod-info-item"><span class="weightbold">Р Р°Р·РјРµСЂ:</span> <span id="order_hlopok"></span></div>
+1525:                     <div class="prod-info-item"><span class="weightbold">РњР°С‚РµСЂРёР°Р»:</span> <span id="order_mat"></span></div>
+1526:                     <div class="prod-info-item"><span class="weightbold">Р¦РµРЅР°:</span> <span class="old-price"><span id="old-price"></span></span> <span class="new-price"><span id="new-price"></span></span></div>
+1527:                 </div>
+1528:                 <div class="prod-info">
+1529:                     <div class="prod-info-item"><span class="weightbold">РќР°РІРѕР»РѕС‡РєРё:</span> <span id="order_navoloch">70*70 - 2С€С‚</span></div>
+1530:                     <div class="prod-info-item"><span class="weightbold">РџРѕРґРѕРґРµСЏР»СЊРЅРёРє:</span> <span id="order_pod">150*220</span></div>
+1531:                     <div class="prod-info-item"><span class="weightbold">РџСЂРѕСЃС‚С‹РЅСЏ:</span> <span id="order_prost">150*220</span></div>
+1532:                 </div>
+1533:                 <div class="prod-buttons-s">
+1534:                 </div>
+1535:             </div>
+1536:         </div>
+1537:     </div>
+1538:     <div class="callback" id="callback" style="display:none">
+1539:         <div class="title">Р—Р°РєР°Р·Р°С‚СЊ Р·РІРѕРЅРѕРє</div>
+1540:         <div class="form">
+1541:             <div class="lead-iframe-wrap"><iframe style="width:100%;min-height:520px;border:0;display:block;" src="https://xshopcart.com/form/?off=jDb0Tmxw&lnk=37383&m=6bbc9a6604ef&language=ru&country=RU&select=countrySelect&s=vZ6FME4Z&color=light&is_price=no" ></iframe></div>
+1542:         </div>
+1543:     </div>
+1544:     <div class="callback" id="suc_callback" style="display:none">
+1545:         <div class="suc_info">
+1546:             РќР°С€ РјРµРЅРµРґР¶РµСЂ РІ Р±Р»РёР¶Р°Р№С€РµРµ РІСЂРµРјСЏ РІР°Рј РїРµСЂРµР·РІРѕРЅРёС‚
+1547:         </div>
+1548:     </div>
+1549:     <div id="order" class="order" style="display:none;">
+1550:         <div class="box_oder_image">
+1551:             <div class="box_order_fix">
+1552:                 <div class="box_order-logo">
+1553:                     <div class="ico"></div>
+1554:                     <div class="text">Р“Р»Р°РІРџРѕСЃС‚РµР»СЊ</div>
+1555:                 </div>
+1556:                 <div class="home-info-box">
+1557:                     <div class="title">Р’Р«РЎРћРљРћРљРђР§Р•РЎРўР’Р•РќРќРћР•<br> РџРћРЎРўР•Р›Р¬РќРћР• Р‘Р•Р›Р¬Р•</div>
+1558:                     <div class="description">Р’С‹СЃРѕРєРѕРєР°С‡РµСЃС‚РІРµРЅРЅРѕРµ, СЃРµСЂС‚РёС„РёС†РёСЂРѕРІР°РЅРЅРѕРµ РїРѕСЃС‚РµР»СЊРЅРѕРµ Р±РµР»СЊРµ РѕС‚ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ!</div>
+1559:                 </div>
+1560:             </div>
+1561:             <div class="box_order_line">
+1562:                 <div class="ico"></div>
+1563:                 <div class="text">
+1564:                     <div class="item">Р‘Р•РЎРџР›РђРўРќРђРЇ Р”РћРЎРўРђР’РљРђ РџРћ РІСЃРµР№ СЂРѕСЃСЃРёРё</div>
+1565:                     <div class="item">РџСЂРё РїРѕРєСѓРїРєРµ РѕС‚ РґРІСѓС… РєРѕРјРїР»РµРєС‚РѕРІ!</div>
+1566:                 </div>
+1567:             </div>
+1568:         </div>
+1569:         <div class="box_order_info">
+1570:             <div class="box_order_title">Р’Р°С€ Р·Р°РєР°Р·</div>
+1571:             <div class="box_order_img">
+1572:                 <div class="block clear">
+1573:                      
+1574:                     <div class="info">
+1575:                         <div class="name" id="name"></div>
+1576:                         <div class="price">
+1577:                             <span class="gray">РС‚РѕРіРѕ:</span>
+1578:                             <span><span id="price"></span> <span class="small"></span></span>
+1579:                         </div>
+1580:                     </div>
+1581:                 </div>
+1582:                 <div class="form">
+1583:                     <div class="lead-iframe-wrap"><iframe style="width:100%;min-height:520px;border:0;display:block;" src="https://xshopcart.com/form/?off=jDb0Tmxw&lnk=37383&m=6bbc9a6604ef&language=ru&country=RU&select=countrySelect&s=vZ6FME4Z&color=light&is_price=no" ></iframe></div>
+1584:                 </div>
+1585:             </div>
+1586:         </div>
+1587:     </div>
+1588:     <div id="order_suc" class="order" style="display:none;">
+1589:         <div class="box_oder_image">
+1590:             <div class="box_order_fix">
+1591:                 <div class="box_order-logo">
+1592:                     <div class="ico"></div>
+1593:                     <div class="text">Р“Р»Р°РІРџРѕСЃС‚РµР»СЊ</div>
+1594:                 </div>
+1595:                 <div class="home-info-box">
+1596:                     <div class="title">Р’Р«РЎРћРљРћРљРђР§Р•РЎРўР’Р•РќРќРћР•<br> РџРћРЎРўР•Р›Р¬РќРћР• Р‘Р•Р›Р¬Р•</div>
+1597:                     <div class="description">Р’С‹СЃРѕРєРѕРєР°С‡РµСЃС‚РІРµРЅРЅРѕРµ, СЃРµСЂС‚РёС„РёС†РёСЂРѕРІР°РЅРЅРѕРµ РїРѕСЃС‚РµР»СЊРЅРѕРµ Р±РµР»СЊРµ РѕС‚ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ!</div>
+1598:                 </div>
+1599:             </div>
+1600:             <div class="box_order_line">
+1601:                 <div class="ico"></div>
+1602:                 <div class="text">
+1603:                     <div class="item">Р‘Р•РЎРџР›РђРўРќРђРЇ Р”РћРЎРўРђР’РљРђ РџРћ РІСЃРµР№ СЂРѕСЃСЃРёРё</div>
+1604:                     <div class="item">РџСЂРё Р·Р°РєР°Р·Рµ РѕС‚ РґРІСѓС… РєРѕРјРїР»РµРєС‚РѕРІ!</div>
+1605:                 </div>
+1606:             </div>
+1607:         </div>
+1608:         <div class="box_order_info">
+1609:             <div class="box_order_suc">
+1610:                 <div class="title">РЎРїР°СЃРёР±Рѕ!</div>
+1611:                 <div class="text">
+1612:                     Р’Р°С€ Р·Р°РєР°Р· СѓСЃРїРµС€РЅРѕ РѕС„РѕСЂРјР»РµРЅ. РњС‹ СЃРІСЏР¶РµРјСЃСЏ СЃ РІР°РјРё РІ Р±Р»РёР¶Р°Р№С€РµРµ РІСЂРµРјСЏ.
+1613:                 </div>
+1614:                 <div class="number">
+1615:                 </div>
+1616:             </div>
+1617:         </div>
+1618:     </div>
+1619:     <script type="text/javascript" src="js/filter.js"></script>
+1620:     <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+1621:     <script type="text/javascript" src="js/slider.js"></script>
+=====GREP ordering/form=====
+36: .callback{ width:460px !important; max-width:95vw; padding:20px !important; background-image:none !important; background:#fff !important; border-radius:12px; }
+37: .callback .title{ margin:0 0 12px !important; color:#333 !important; position:relative; z-index:2; text-align:center; font-weight:700; }
+38: .callback .form{ width:100%; }
+42: #order .box_order_form, #order .form{ width:100%; }
+60:   var a = e.target.closest('a[href="#order"], a[href="#callback"], a.cb, #sat_ordering, #sat_order');
+88:     if(e.target.closest('a[href="#order"], a[href="#callback"], a.cb, #sat_ordering, #sat_order, .lead-iframe-wrap')){
+145:                         <div class="button"><a href="#callback" class="cb"><i class="fa fa-phone"></i>РћР±СЂР°С‚РЅС‹Р№ Р·РІРѕРЅРѕРє</a></div>
+204:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+220:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+221:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+234:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+250:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+251:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+264:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+280:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+281:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+294:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+310:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+311:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+324:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+340:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+341:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+354:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+370:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+371:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+384:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+400:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+401:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+414:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+430:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+431:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+444:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+460:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+461:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+474:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+490:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+491:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+504:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+520:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+521:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+534:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+550:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+551:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+564:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+580:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+581:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+594:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+610:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+611:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+624:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+640:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+641:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+654:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+670:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+671:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+684:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+700:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+701:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+714:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+730:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+731:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+744:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+760:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+761:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+774:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+790:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+791:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+804:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+820:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+821:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+834:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+850:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+851:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+864:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+880:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+881:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+894:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+910:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+911:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+924:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+940:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+941:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+954:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+970:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+971:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+984:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1000:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1001:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1014:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1030:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1031:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1044:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1060:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1061:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1074:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1090:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1091:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1104:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1120:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1121:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1134:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1150:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1151:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1164:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1180:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1181:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1194:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1210:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1211:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1224:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1240:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1241:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1254:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1270:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1271:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1284:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1300:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1301:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1314:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1330:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1331:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1463:                         <div class="button"><a href="#callback" class="cb"><i class="fa fa-phone"></i>РћР±СЂР°С‚РЅС‹Р№ Р·РІРѕРЅРѕРє</a></div>
+1516:     <div class="order-box" id="ordering" style="display:none">
+1538:     <div class="callback" id="callback" style="display:none">
+1544:     <div class="callback" id="suc_callback" style="display:none">
+1551:             <div class="box_order_fix">
+1552:                 <div class="box_order-logo">
+1561:             <div class="box_order_line">
+1569:         <div class="box_order_info">
+1570:             <div class="box_order_title">Р’Р°С€ Р·Р°РєР°Р·</div>
+1571:             <div class="box_order_img">
+1590:             <div class="box_order_fix">
+1591:                 <div class="box_order-logo">
+1600:             <div class="box_order_line">
+1608:         <div class="box_order_info">
+1609:             <div class="box_order_suc">

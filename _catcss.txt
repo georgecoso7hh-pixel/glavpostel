@@ -1,0 +1,44 @@
+/* ===== Каталог: горизонтальная листалка на мобиле ===== */
+.cat-dots{display:none;}
+@media (max-width:768px){
+  .products-box ul.products{
+    display:flex !important;
+    flex-wrap:nowrap !important;
+    overflow-x:auto !important;
+    overflow-y:hidden !important;
+    gap:12px !important;
+    height:auto !important;
+    min-height:0 !important;
+    padding:4px 12px 8px !important;
+    margin:0 !important;
+    scroll-snap-type:x mandatory;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+    list-style:none !important;
+  }
+  .products-box ul.products::-webkit-scrollbar{display:none;}
+  .products-box ul.products > .products-item-fix{
+    flex:0 0 64% !important;
+    width:64% !important;
+    max-width:64% !important;
+    float:none !important;
+    margin:0 !important;
+    position:relative !important;
+    top:auto !important;
+    left:auto !important;
+    transform:none !important;
+    scroll-snap-align:start;
+  }
+  .cat-dots{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:8px;
+    margin:14px 0 4px;
+  }
+  .cat-dots .cat-dot{
+    width:9px;height:9px;border-radius:50%;
+    background:#d9d2c7;cursor:pointer;transition:all .2s;
+  }
+  .cat-dots .cat-dot.act{background:#e8730c;width:24px;border-radius:5px;}
+}

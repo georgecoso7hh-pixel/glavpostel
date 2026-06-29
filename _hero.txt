@@ -1,0 +1,106 @@
+100: </script>
+101: <!-- /AitiBot -->
+102: <link rel="stylesheet" href="css/custom-rebuild.css?v=16"></head>
+103: 
+104: <body>
+105:     <header class="header">
+106:         <div class="header-box-fixed">
+107:             <div class="header-box-fixed-fix dt">
+108:                 <div class="header-box-glob">
+109:                     <div class="wrapper clear">
+110:                         <div class="logotype">
+111:                             <div class="ico"></div>
+112:                             <div class="text">ГлавПостель</div>
+113:                         </div>
+114:                         <div class="number"></div>
+115:                     </div>
+116:                 </div>
+117:             </div>
+118:         </div>
+119:         <div class="wrapper">
+120:             <div class="home-content clear">
+121:                 <div class="home-item">
+122:                     <div class="logo">
+123:                         <div class="logo-ico"></div>
+124:                         <div class="logo-box">ГлавПостель</div>
+125:                     </div>
+126:                     <div class="home-info-fix">
+127:                         <div class="home-info-box">
+128:                             <div class="title">Комплект постельного белья из сатина высшего качества</div>
+129:                             <div class="description">Высококачественное, сертифицированное постельное белье от производителя!</div>
+130:                         </div>
+131:                     </div>
+132:                 </div>
+133:                 <div class="home-item">
+134:                     <div class="home-cont" style="display: none;">
+135:                         <div class="home-number"><span></span></div>
+136:                         <div class="home-number-desc">
+137:                             Мы будем рады Вашему звонку!<br>
+138:                             С 09:00 - До 18:00 Пн-Пт<br>
+139:                             Заказы на сайте 24 часа.<br>
+140:                         </div>
+141:                     </div>
+142:                     <div class="home-cont-box">
+143:                         <div class="title">Консультации Бесплатно!</div>
+144:                         <div class="desc">Закажите обратный звонок!</div>
+145:                         <div class="button"><a href="#callback" class="cb"><i class="fa fa-phone"></i>Обратный звонок</a></div>
+146:                     </div>
+147:                     <div class="ico-mobile"><img src="images/ico3.png"></div>
+148:                 </div>
+149:             </div>
+150:         </div>
+151:     </header>
+152:     <div class="home-line">
+153:         <div class="home-line-box">
+154:             <div class="line-desc">
+155:                 <div class="ico"></div>
+156:             </div>
+157:             <div class="line-items"></div>
+158:         </div>
+159:         <div class="home-line-info">
+160:             <div class="wrapper">
+161:                 <div class="dt">
+162:                     <div class="line-info-desc">
+163:                         <div class="title">БЕСПЛАТНАЯ ДОСТАВКА ПО всей России</div>
+164:                         <div class="desc">При покупке от двух комплектов! </div>
+165:                     </div>
+166:                     <div class="line-items-box clear">
+167:                         <div class="line-item">
+168:                             <div class="ico"></div>
+169:                             <div class="info">
+170:                                 <div class="title">СКИДКИ ОТ 50%</div>
+171:                                 <div class="desc">Тотальная сезонная распродажа</div>
+172:                             </div>
+173:                         </div>
+174:                         <div class="line-item">
+175:                             <div class="ico"></div>
+176:                             <div class="info">
+177:                                 <div class="title">Оплата при получении</div>
+178:                                 <div class="desc">Доставка в любой город России</div>
+179:                             </div>
+180:                         </div>
+181:                     </div>
+182:                 </div>
+183:             </div>
+184:         </div>
+185:     </div>
+186:     <div class="products-box">
+187:         <div class="wrapper">
+188:             <ul class="products-filter filter-1 clear">
+189:                 <li><a class="filter" data-filter=".1-5-spalnye" data-cat="CANDIE S FASHION">Каталог</a></li>
+190:                <!--  <li><a class="filter" data-filter=".1-5-spalnye" data-cat="CANDIE S FASHION">CANDIE S FASHION</a></li> -->
+191:               <!--   <li><a class="filter" data-filter=".2-spalnye" data-cat="Francisci Французский стиль 5D">Francisci Французский стиль 5D</a></li> -->
+192:                 <!-- <li><a class="filter mixitup-sandbox_menu-item__cat-b" data-hide-on-click="true" data-tooltip-content="Filter blue" data-behavior="tooltip22B4F2" data-ref="ripple" data-filter=".evro" data-cat="Евро-комплекты">Евро</a></li>
+193: <li><a class="filter" data-filter=".semejnye" data-cat="Семейные">Семейные</a></li> -->
+194:             </ul>
+195:             <div class="products-nav">
+196:                <!--  Вы в категории: <a href="" class="nav-text" style="color:#1f2025;text-decoration:none"></a> -->
+197:             </div>
+198:             <div class="products-items clear" id="Container">
+199:                 <ul class="products">
+200:                     
+201: 
+202:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+203:                         <div class="products-item">
+204:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+205:                             <div class="prod-image">

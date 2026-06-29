@@ -1,0 +1,283 @@
+25:     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+27: 	 <script src="maskinput.js"></script>
+37: .callback .title{ margin:0 0 12px !important; color:#333 !important; position:relative; z-index:2; text-align:center; font-weight:700; }
+41: #order .lead-iframe-wrap iframe{ min-height:560px; }
+42: #order .box_order_form, #order .form{ width:100%; }
+52:     })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=110150078', 'ym');
+60:   var a = e.target.closest('a[href="#order"], a[href="#callback"], a.cb, #sat_ordering, #sat_order');
+61:   if(a && window.ym){ ym(110150078, 'reachGoal', 'lead_form_open'); }
+88:     if(e.target.closest('a[href="#order"], a[href="#callback"], a.cb, #sat_ordering, #sat_order, .lead-iframe-wrap')){
+196:                <!--  Р’С‹ РІ РєР°С‚РµРіРѕСЂРёРё: <a href="" class="nav-text" style="color:#1f2025;text-decoration:none"></a> -->
+202:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+204:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+206:                                 <div class="pgal" data-art="1" data-imgs="photos/1-1.png,photos/1-2.png,photos/1-3.png"></div>
+209:                             <div class="prod-desc" onclick="document.getElementById('color').value = '1';">
+219:                                 <div class="prod-buttons">
+220:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+221:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+232:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+234:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+236:                                 <div class="pgal" data-art="2" data-imgs="photos/2-1.png,photos/2-2.png,photos/2-3.png"></div>
+239:                             <div class="prod-desc" onclick="document.getElementById('color').value = '2';">
+249:                                 <div class="prod-buttons">
+250:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+251:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+262:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+264:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+266:                                 <div class="pgal" data-art="3" data-imgs="photos/3-1.png,photos/3-2.png,photos/3-3.png"></div>
+269:                             <div class="prod-desc" onclick="document.getElementById('color').value = '3';">
+279:                                 <div class="prod-buttons">
+280:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+281:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+292:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+294:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+296:                                 <div class="pgal" data-art="4" data-imgs="photos/4-1.png,photos/4-2.png,photos/4-3.png"></div>
+299:                             <div class="prod-desc" onclick="document.getElementById('color').value = '4';">
+309:                                 <div class="prod-buttons">
+310:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+311:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+322:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+324:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+326:                                 <div class="pgal" data-art="5" data-imgs="photos/5-1.png,photos/5-2.png,photos/5-3.png"></div>
+329:                             <div class="prod-desc" onclick="document.getElementById('color').value = '5';">
+339:                                 <div class="prod-buttons">
+340:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+341:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+352:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+354:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+356:                                 <div class="pgal" data-art="6" data-imgs="photos/6-1.png,photos/6-2.png,photos/6-3.png"></div>
+359:                             <div class="prod-desc" onclick="document.getElementById('color').value = '6';">
+369:                                 <div class="prod-buttons">
+370:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+371:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+382:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+384:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+386:                                 <div class="pgal" data-art="7" data-imgs="photos/7-1.png,photos/7-2.png,photos/7-3.png"></div>
+389:                             <div class="prod-desc" onclick="document.getElementById('color').value = '7';">
+399:                                 <div class="prod-buttons">
+400:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+401:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+412:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+414:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+416:                                 <div class="pgal" data-art="8" data-imgs="photos/8-1.png,photos/8-2.png,photos/8-3.png"></div>
+419:                             <div class="prod-desc" onclick="document.getElementById('color').value = '8';">
+429:                                 <div class="prod-buttons">
+430:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+431:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+442:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+444:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+446:                                 <div class="pgal" data-art="9" data-imgs="photos/9-1.png,photos/9-2.png,photos/9-3.png"></div>
+449:                             <div class="prod-desc" onclick="document.getElementById('color').value = '9';">
+459:                                 <div class="prod-buttons">
+460:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+461:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+472:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+474:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+476:                                 <div class="pgal" data-art="10" data-imgs="photos/10-1.png,photos/10-2.png,photos/10-3.png"></div>
+479:                             <div class="prod-desc" onclick="document.getElementById('color').value = '10';">
+489:                                 <div class="prod-buttons">
+490:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+491:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+502:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+504:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+506:                                 <div class="pgal" data-art="11" data-imgs="photos/11-1.png,photos/11-2.png,photos/11-3.png"></div>
+509:                             <div class="prod-desc" onclick="document.getElementById('color').value = '11';">
+519:                                 <div class="prod-buttons">
+520:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+521:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+532:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+534:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+536:                                 <div class="pgal" data-art="12" data-imgs="photos/12-1.png,photos/12-2.png,photos/12-3.png"></div>
+539:                             <div class="prod-desc" onclick="document.getElementById('color').value = '12';">
+549:                                 <div class="prod-buttons">
+550:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+551:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+562:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+564:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+566:                                 <div class="pgal" data-art="13" data-imgs="photos/13-1.png,photos/13-2.png,photos/13-3.png"></div>
+569:                             <div class="prod-desc" onclick="document.getElementById('color').value = '13';">
+579:                                 <div class="prod-buttons">
+580:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+581:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+592:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+594:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+596:                                 <div class="pgal" data-art="14" data-imgs="photos/14-1.png,photos/14-2.png,photos/14-3.png"></div>
+599:                             <div class="prod-desc" onclick="document.getElementById('color').value = '14';">
+609:                                 <div class="prod-buttons">
+610:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+611:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+622:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+624:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+626:                                 <div class="pgal" data-art="15" data-imgs="photos/15-1.png,photos/15-2.png,photos/15-3.png"></div>
+629:                             <div class="prod-desc" onclick="document.getElementById('color').value = '15';">
+639:                                 <div class="prod-buttons">
+640:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+641:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+652:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+654:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+656:                                 <div class="pgal" data-art="16" data-imgs="photos/16-1.png,photos/16-2.png,photos/16-3.png"></div>
+659:                             <div class="prod-desc" onclick="document.getElementById('color').value = '16';">
+669:                                 <div class="prod-buttons">
+670:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+671:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+682:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+684:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+686:                                 <div class="pgal" data-art="17" data-imgs="photos/17-1.png,photos/17-2.png,photos/17-3.png"></div>
+689:                             <div class="prod-desc" onclick="document.getElementById('color').value = '17';">
+699:                                 <div class="prod-buttons">
+700:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+701:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+712:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+714:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+716:                                 <div class="pgal" data-art="18" data-imgs="photos/18-1.png,photos/18-2.png,photos/18-3.png"></div>
+719:                             <div class="prod-desc" onclick="document.getElementById('color').value = '18';">
+729:                                 <div class="prod-buttons">
+730:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+731:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+742:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+744:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+746:                                 <div class="pgal" data-art="19" data-imgs="photos/19-1.png,photos/19-2.png,photos/19-3.png"></div>
+749:                             <div class="prod-desc" onclick="document.getElementById('color').value = '19';">
+759:                                 <div class="prod-buttons">
+760:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+761:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+772:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+774:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+776:                                 <div class="pgal" data-art="20" data-imgs="photos/20-1.png,photos/20-2.png,photos/20-3.png"></div>
+779:                             <div class="prod-desc" onclick="document.getElementById('color').value = '20';">
+789:                                 <div class="prod-buttons">
+790:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+791:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+802:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+804:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+806:                                 <div class="pgal" data-art="21" data-imgs="photos/21-1.png,photos/21-2.png,photos/21-3.png"></div>
+809:                             <div class="prod-desc" onclick="document.getElementById('color').value = '21';">
+819:                                 <div class="prod-buttons">
+820:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+821:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+832:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+834:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+836:                                 <div class="pgal" data-art="22" data-imgs="photos/22-1.png,photos/22-2.png,photos/22-3.png"></div>
+839:                             <div class="prod-desc" onclick="document.getElementById('color').value = '22';">
+849:                                 <div class="prod-buttons">
+850:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+851:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+862:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+864:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+866:                                 <div class="pgal" data-art="23" data-imgs="photos/23-1.png,photos/23-2.png,photos/23-3.png"></div>
+869:                             <div class="prod-desc" onclick="document.getElementById('color').value = '23';">
+879:                                 <div class="prod-buttons">
+880:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+881:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+892:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+894:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+896:                                 <div class="pgal" data-art="24" data-imgs="photos/24-1.png,photos/24-2.png,photos/24-3.png"></div>
+899:                             <div class="prod-desc" onclick="document.getElementById('color').value = '24';">
+909:                                 <div class="prod-buttons">
+910:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+911:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+922:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+924:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+926:                                 <div class="pgal" data-art="25" data-imgs="photos/25-1.png,photos/25-2.png,photos/25-3.png"></div>
+929:                             <div class="prod-desc" onclick="document.getElementById('color').value = '25';">
+939:                                 <div class="prod-buttons">
+940:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+941:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+952:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+954:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+956:                                 <div class="pgal" data-art="26" data-imgs="photos/26-1.png,photos/26-2.png,photos/26-3.png"></div>
+959:                             <div class="prod-desc" onclick="document.getElementById('color').value = '26';">
+969:                                 <div class="prod-buttons">
+970:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+971:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+982:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+984:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+986:                                 <div class="pgal" data-art="27" data-imgs="photos/27-1.png,photos/27-2.png,photos/27-3.png"></div>
+989:                             <div class="prod-desc" onclick="document.getElementById('color').value = '27';">
+999:                                 <div class="prod-buttons">
+1000:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1001:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1012:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+1014:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1016:                                 <div class="pgal" data-art="28" data-imgs="photos/28-1.png,photos/28-2.png,photos/28-3.png"></div>
+1019:                             <div class="prod-desc" onclick="document.getElementById('color').value = '28';">
+1029:                                 <div class="prod-buttons">
+1030:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1031:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1042:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+1044:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1046:                                 <div class="pgal" data-art="29" data-imgs="photos/29-1.png,photos/29-2.png,photos/29-3.png"></div>
+1049:                             <div class="prod-desc" onclick="document.getElementById('color').value = '29';">
+1059:                                 <div class="prod-buttons">
+1060:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1061:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1072:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+1074:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1076:                                 <div class="pgal" data-art="30" data-imgs="photos/30-1.png,photos/30-2.png,photos/30-3.png"></div>
+1079:                             <div class="prod-desc" onclick="document.getElementById('color').value = '30';">
+1089:                                 <div class="prod-buttons">
+1090:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1091:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1102:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+1104:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1106:                                 <div class="pgal" data-art="31" data-imgs="photos/31-1.png,photos/31-2.png,photos/31-3.png"></div>
+1109:                             <div class="prod-desc" onclick="document.getElementById('color').value = '31';">
+1119:                                 <div class="prod-buttons">
+1120:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1121:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1132:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+1134:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1136:                                 <div class="pgal" data-art="32" data-imgs="photos/32-1.png,photos/32-2.png,photos/32-3.png"></div>
+1139:                             <div class="prod-desc" onclick="document.getElementById('color').value = '32';">
+1149:                                 <div class="prod-buttons">
+1150:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1151:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1162:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+1164:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1166:                                 <div class="pgal" data-art="33" data-imgs="photos/33-1.png,photos/33-2.png,photos/33-3.png"></div>
+1169:                             <div class="prod-desc" onclick="document.getElementById('color').value = '33';">
+1179:                                 <div class="prod-buttons">
+1180:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1181:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1192:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+1194:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1196:                                 <div class="pgal" data-art="34" data-imgs="photos/34-1.png,photos/34-2.png,photos/34-3.png"></div>
+1199:                             <div class="prod-desc" onclick="document.getElementById('color').value = '34';">
+1209:                                 <div class="prod-buttons">
+1210:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1211:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1222:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+1224:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1226:                                 <div class="pgal" data-art="35" data-imgs="photos/35-1.png,photos/35-2.png,photos/35-3.png"></div>
+1229:                             <div class="prod-desc" onclick="document.getElementById('color').value = '35';">
+1239:                                 <div class="prod-buttons">
+1240:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1241:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1252:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+1254:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1256:                                 <div class="pgal" data-art="36" data-imgs="photos/36-1.png,photos/36-2.png,photos/36-3.png"></div>
+1259:                             <div class="prod-desc" onclick="document.getElementById('color').value = '36';">
+1269:                                 <div class="prod-buttons">
+1270:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1271:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1282:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+1284:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1286:                                 <div class="pgal" data-art="37" data-imgs="photos/37-1.png,photos/37-2.png,photos/37-3.png"></div>
+1289:                             <div class="prod-desc" onclick="document.getElementById('color').value = '37';">
+1299:                                 <div class="prod-buttons">
+1300:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1301:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1312:                     <div class="products-item-fix mix 1-5-spalnye" data-order="55430">
+1314:                             <a href="#ordering" class="modal full-link" id="sat_order_full"></a>
+1316:                                 <div class="pgal" data-art="38" data-imgs="photos/38-1.png,photos/38-2.png,photos/38-3.png"></div>
+1319:                             <div class="prod-desc" onclick="document.getElementById('color').value = '38';">
+1329:                                 <div class="prod-buttons">
+1330:                                     <div class="item prod_s_but"><a href="#order" class="modal" id="sat_ordering"><i class="fa fa-shopping-cart"></i> Р·Р°РєР°Р·Р°С‚СЊ</a></div>
+1331:                                     <div class="item"><a href="#ordering" class="modal" id="sat_order">РџРѕРґСЂРѕР±РЅРµРµ</a></div>
+1533:                 <div class="prod-buttons-s">
+1541:             <div class="lead-iframe-wrap"><iframe style="width:100%;min-height:520px;border:0;display:block;" src="https://xshopcart.com/form/?off=jDb0Tmxw&lnk=37383&m=6bbc9a6604ef&language=ru&country=RU&select=countrySelect&s=vZ6FME4Z&color=light&is_price=no" ></iframe></div>
+1583:                     <div class="lead-iframe-wrap"><iframe style="width:100%;min-height:520px;border:0;display:block;" src="https://xshopcart.com/form/?off=jDb0Tmxw&lnk=37383&m=6bbc9a6604ef&language=ru&country=RU&select=countrySelect&s=vZ6FME4Z&color=light&is_price=no" ></iframe></div>
+1624:     <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
+1625:     <script type="text/javascript" src="js/script.js?v=20"></script>
+1637:         color: #393939;
+1651:     color: #393939;

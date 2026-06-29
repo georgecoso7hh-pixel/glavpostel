@@ -1,0 +1,62 @@
+276:    cov+='<div class="rv-tile" data-g="'+(r.gStart+ti)+'" style="'+bg(posterOf(it,r))+'">'+play+more+'</div>';
+277:   });
+278:   cov+='</div>';
+279:   card.innerHTML=cov+
+280:    '<div class="rv-body"><div class="rv-top"><span class="rv-name">'+esc(r.name)+'</span><span class="rv-date">'+esc(r.date)+'</span></div>'+
+281:    '<div class="rv-stars">'+stars(r.rating)+'</div>'+
+282:    '<div class="rv-pros"><b>Достоинства:</b> '+esc(r.pros)+'</div></div>';
+283:   card.addEventListener("click",function(e){
+284:    var t=e.target.closest(".rv-tile");
+285:    openRvm(t?parseInt(t.getAttribute("data-g"),10):r.gStart);
+286:   });
+287:   track.appendChild(card);
+288:  });
+289: }
+290: function buildPages(){
+291:  pagesBox.innerHTML="";
+292:  var pp=perPage(),np=nPages();
+293:  for(var p=0;p<np;p++){
+294:   var s=p*pp+1,e=Math.min((p+1)*pp,REVIEWS.length);
+295:   var b=el("div","rv-page"+(p===curPage?" act":""),s===e?(""+s):(s+"-"+e));
+--- 355..395 ---
+355: /* ===== Кнопка Отзывы + Показать ещё + микро-лента ===== */
+356: function scrollToReviews(){
+357:  var sr=document.querySelector(".satin-reviews")||document.getElementById("rvRoot");
+358:  if(sr)sr.scrollIntoView({behavior:"smooth",block:"start"});
+359: }
+360: function initReviewButtons(){
+361:  var items=document.querySelectorAll(".prod-buttons .item");
+362:  Array.prototype.forEach.call(items,function(it){
+363:   if(it.classList.contains("prod_s_but"))return;
+364:   var a=it.querySelector("a");if(!a)return;
+365:   var b=document.createElement("a");
+366:   b.textContent="\u041e\u0442\u0437\u044b\u0432\u044b";
+367:   b.className="to-reviews";
+368:   b.setAttribute("href","javascript:void(0)");
+369:   b.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();scrollToReviews();});
+370:   a.parentNode.replaceChild(b,a);
+371:  });
+372: }
+373: function buildRibbon(items){
+374:  if(window.innerWidth>768)return;
+375:  if(document.getElementById("scrubRibbon"))return;
+376:  items=items||Array.prototype.slice.call(document.querySelectorAll(".products-item-fix"));
+377:  var vis=items.filter(function(it){return !it.classList.contains("pi-hidden");});
+378:  if(vis.length<3)return;
+379:  var rib=document.createElement("div");rib.id="scrubRibbon";
+380:  var inner=document.createElement("div");inner.className="scrub-inner";rib.appendChild(inner);
+381:  vis.forEach(function(it,i){
+382:   var gal=it.querySelector(".pgal");
+383:   var imgs=((gal&&gal.getAttribute("data-imgs"))||"").split(",").filter(Boolean);
+384:   var src=imgs[0]||"";
+385:   var th=document.createElement("div");th.className="scrub-thumb";
+386:   if(src)th.style.backgroundImage="url('"+src+"')";
+387:   (function(idx){th.onclick=function(){vis[idx].scrollIntoView({behavior:"smooth",block:"center"});};})(i);
+388:   inner.appendChild(th);
+389:  });
+390:  document.body.appendChild(rib);
+391:  var hideT;
+392:  function show(){rib.classList.add("on");clearTimeout(hideT);hideT=setTimeout(function(){rib.classList.remove("on");},1100);}
+393:  function highlight(){
+394:   var mid=window.innerHeight/2,best=-1,bestD=1e9;
+395:   vis.forEach(function(it,i){var r=it.getBoundingClientRect();var c=r.top+r.height/2;var d=Math.abs(c-mid);if(d<bestD){bestD=d;best=i;}});

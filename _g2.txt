@@ -1,0 +1,129 @@
+TOTAL=1673
+---- @102
+102: <link rel="stylesheet" href="css/custom-rebuild.css"></head>
+103: 
+104: <body>
+105:     <header class="header">
+106:         <div class="header-box-fixed">
+107:             <div class="header-box-fixed-fix dt">
+108:                 <div class="header-box-glob">
+109:                     <div class="wrapper clear">
+110:                         <div class="logotype">
+111:                             <div class="ico"></div>
+112:                             <div class="text">ГлавПостель</div>
+113:                         </div>
+114:                         <div class="number"></div>
+---- @1357
+1357:                         <div class="box-title">Сатин - лучший материал для постельного белья!</div>
+1358:                         <div class="satin-box-items clear">
+1359:                             <div class="satin-box-item">
+1360:                                 <div class="ico-fix">
+1361:                                     <div class="ico"><i class="fa fa-thumbs-o-up"></i></div>
+1362:                                 </div>
+1363:                                 <div class="text"><b>Цены</b><br>без посредников</div>
+1364:                             </div>
+1365:                             <div class="satin-box-item">
+1366:                                 <div class="ico-fix">
+1367:                                     <div class="ico"><i class="fa fa-check"></i></div>
+1368:                                 </div>
+1369:                                 <div class="text"><b>Сначала получаете</b> потом оплачиваете</div>
+---- @1399
+1399:                     <div class="satin-reviews">
+1400:                         <div class="box-title">Отзывы клиентов</div>
+1401:                         <div class="reviews-items clear">
+1402: 						<div class="rv-grid" id="rvRoot"></div>
+1403: 					</div>
+1404:                     </div>
+1405:                 </div>
+1406:             </div>
+1407:         </div>
+1408:     </section>
+1409:     <section>
+1410:         <div class="satin-cert">
+1411:             <div class="wrapper">
+---- @1400
+1400:                         <div class="box-title">Отзывы клиентов</div>
+1401:                         <div class="reviews-items clear">
+1402: 						<div class="rv-grid" id="rvRoot"></div>
+1403: 					</div>
+1404:                     </div>
+1405:                 </div>
+1406:             </div>
+1407:         </div>
+1408:     </section>
+1409:     <section>
+1410:         <div class="satin-cert">
+1411:             <div class="wrapper">
+1412:                 <div class="box-title">Сертификаты качества</div>
+---- @1402
+1402: 						<div class="rv-grid" id="rvRoot"></div>
+1403: 					</div>
+1404:                     </div>
+1405:                 </div>
+1406:             </div>
+1407:         </div>
+1408:     </section>
+1409:     <section>
+1410:         <div class="satin-cert">
+1411:             <div class="wrapper">
+1412:                 <div class="box-title">Сертификаты качества</div>
+1413:                 <div class="cert-items clear desktop">
+1414:                     <div class="cert-item">
+---- @1412
+1412:                 <div class="box-title">Сертификаты качества</div>
+1413:                 <div class="cert-items clear desktop">
+1414:                     <div class="cert-item">
+1415:                         <a class="fancybox" rel="gallery1" href="images/sert1.jpg"><img src="images/sert1.jpg"></a>
+1416:                     </div>
+1417:                     <div class="cert-item">
+1418:                         <a class="fancybox" rel="gallery2" href="images/sert2.jpg"><img src="images/sert2.jpg"></a>
+1419:                     </div>
+1420:                 </div>
+1421:                 <div class="mobile-items">
+1422:                     <div class="cert-items clear">
+1423:                         <div class="cert-item">
+1424:                             <a class="fancybox" rel="gallery1" href="images/sert1.jpg"><img src="images/sert1.jpg"></a>
+---- @1437
+1437:                 <div class="box-title">Как мы работаем</div>
+1438:                 <div class="work-items clear">
+1439:                     <div class="work-item">
+1440:                         <div class="ico one"></div>
+1441:                         <div class="title">1. Заказать</div>
+1442:                         <div class="description">Вы оставляете заказ на сайте. Нажмите на кнопку заказать на товаре, введите Имя и Телефон. Если Вы хотите заказать два и более комплектов, так же нажмите заказать на товаре и введите Имя и Телефон на других товарах.</div>
+1443:                     </div>
+1444:                     <div class="work-item">
+1445:                         <div class="ico two"></div>
+1446:                         <div class="title">2. Менеджер Вам перезванивает</div>
+1447:                         <div class="description">Менеджер перезвонит Вам и с радостью ответит на все Ваши вопросы. Предложит наилучший способ доставки заказа в Ваш город. Вместе с менеджером вы сможете выбрать подходящий пункт выдачи заказов в Вашем городе.</div>
+1448:                     </div>
+1449:                     <div class="work-item">
+---- @1447
+1447:                         <div class="description">Менеджер перезвонит Вам и с радостью ответит на все Ваши вопросы. Предложит наилучший способ доставки заказа в Ваш город. Вместе с менеджером вы сможете выбрать подходящий пункт выдачи заказов в Вашем городе.</div>
+1448:                     </div>
+1449:                     <div class="work-item">
+1450:                         <div class="ico three"></div>
+1451:                         <div class="title">3. Мы Вам отправляем заказ</div>
+1452:                         <div class="description">Наш курьер бережно упакует и отправит Ваш заказ. Мы работаем с самой быстрой курьерской службой - СДЕК, это позволяет сократить срок доставки до 5-10 дней. Для маленьких удалённых городов действует доставка Почтой России.</div>
+1453:                     </div>
+1454:                     <div class="work-item">
+1455:                         <div class="ico four"></div>
+1456:                         <div class="title">4. Оплата при получении</div>
+1457:                         <div class="description">Когда заказ приходит в Ваш город, наш менеджер позвонит Вам и предупредит, что заказ прибыл в пункт выдачи. Вы получаете и только после этого оплачиваете свой заказ. Приятных покупок в нашем интернет магазине!</div>
+1458:                     </div>
+1459:                 </div>
+---- @1472
+1472: 			<div class="box-title">Наше белье дополнит уют Вашей квартиры!</div>
+1473: 			<div class="description">Смело можете оформлять заказ, наши менеджеры Вам перезвонят и проконсультируют по всем оставшимся вопросам. В любой момент Вы можете отказаться от заказа.</div>
+1474: 		</div>
+1475: 	</div> -->
+1476:     </section>
+1477:     <section>
+1478:         <div class="satin-images clear">
+1479:             <div class="images-item" style="background-image:url(images/image5.jpg);"></div>
+1480:             <div class="images-item" style="background-image:url(images/image6.jpg);"></div>
+1481:             <div class="images-item" style="background-image:url(images/image7.jpg);"></div>
+1482:             <div class="images-item" style="background-image:url(images/image8.jpg);"></div>
+1483:             <div class="images-item" style="background-image:url(images/image9.jpg);"></div>
+1484:             <div class="images-item" style="background-image:url(images/image10.jpg);"></div>
+---- @1673
+1673: <script src="js/custom-rebuild.js"></script></body></html>

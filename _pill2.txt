@@ -1,0 +1,6 @@
+index.html:188: <ul class="products-filter filter-1 clear">
+index.html:189: <li><a class="filter" data-filter=".1-5-spalnye" data-cat="CANDIE S FASHION">Каталог</a></li>
+index.html:190: <!--  <li><a class="filter" data-filter=".1-5-spalnye" data-cat="CANDIE S FASHION">CANDIE S FASHION</a></li> -->
+index.html:191: <!--   <li><a class="filter" data-filter=".2-spalnye" data-cat="Francisci Французский стиль 5D">Francisci Французский стиль 5D</a></li> -->
+index.html:192: <!-- <li><a class="filter mixitup-sandbox_menu-item__cat-b" data-hide-on-click="true" data-tooltip-content="Filter blue" data-behavior="tooltip22B4F2" data-ref="ripple" data-filter=".evro" data-cat="Евро-комплекты">Евро</a></li>
+index.html:193: <li><a class="filter" data-filter=".semejnye" data-cat="Семейные">Семейные</a></li> -->
