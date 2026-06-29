@@ -64,7 +64,7 @@
 .rv-track{display:flex;gap:16px;transition:transform .38s ease;}
 .rv-card{
   box-sizing:border-box;
-  height:452px;
+  height:404px;
   flex-shrink:0;flex-grow:0;
   background:#fff;border:1px solid #ececec;border-radius:14px;overflow:hidden;
   cursor:pointer;display:flex;flex-direction:column;
@@ -73,7 +73,7 @@
 .rv-card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(0,0,0,.10);}
 
 /* коллаж всех фото/видео */
-.rv-cover{position:relative;height:230px;flex:0 0 230px;background:#f2f2f2;display:grid;gap:3px;}
+.rv-cover{position:relative;height:208px;flex:0 0 208px;background:#f2f2f2;display:grid;gap:3px;}
 .rv-cov-1{grid-template-columns:1fr;grid-template-rows:1fr;}
 .rv-cov-2{grid-template-columns:1fr 1fr;grid-template-rows:1fr;}
 .rv-cov-3{grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;}
@@ -83,7 +83,7 @@
 .rv-tile .rv-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;font-size:24px;background:rgba(0,0,0,.30);}
 .rv-tile .rv-more{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.55);color:#fff;font-size:22px;font-weight:700;}
 
-.rv-body{padding:16px 17px 18px;display:flex;flex-direction:column;gap:9px;flex:1;}
+.rv-body{padding:13px 16px 14px;display:flex;flex-direction:column;gap:7px;flex:1;}
 .rv-top{display:flex;justify-content:space-between;align-items:center;}
 .rv-name{font-weight:700;color:#222;font-size:17px;}
 .rv-date{color:#9a9a9a;font-size:13px;}
