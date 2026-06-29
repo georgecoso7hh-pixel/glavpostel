@@ -131,18 +131,23 @@ function cap(s){return s?s.charAt(0).toUpperCase()+s.slice(1):s;}
 var plxOv,plxBig,plxStrip,plxImgs,plxIdx;
 function buildPlx(){
  plxOv=el("div","plx-overlay");
- plxOv.innerHTML='<div class="plx"><span class="plx-close">\u00d7</span><div class="plx-top">'+
-  '<div class="plx-stage"><div class="plx-big" id="plxBig"></div><div class="plx-strip" id="plxStrip"></div></div>'+
-  '<div class="plx-info"><div class="plx-art">Артикул: <span id="plxArt"></span></div>'+
-  '<h3 class="plx-h">Комплект постельного белья из сатина</h3>'+
-  '<div class="plx-row"><b>Материал:</b> Сатин, 100% хлопок</div>'+
-  '<div class="plx-row"><b>Плотность:</b> 125 г/м², не просвечивает</div>'+
-  '<div class="plx-row"><b>В комплекте:</b> простынь, пододеяльник, наволочки</div>'+
-  '<div class="plx-price"><span class="plx-old">4580 руб</span><span class="plx-new">2290 руб</span></div>'+
-  '<a href="#order" class="plx-buy" id="plxBuy">Заказать</a></div></div></div>';
+ plxOv.innerHTML='<div class="plx"><span class="plx-close">\u00d7</span>'+
+  '<div class="plx-body"><div class="plx-top">'+
+   '<div class="plx-stage"><div class="plx-big" id="plxBig"></div><div class="plx-strip" id="plxStrip"></div></div>'+
+   '<div class="plx-info">'+
+    '<div class="plx-art">Артикул: <span id="plxArt"></span></div>'+
+    '<h3 class="plx-h">Комплект постельного белья из сатина</h3>'+
+    '<div class="plx-row"><b>Материал:</b> Сатин, 100% хлопок</div>'+
+    '<div class="plx-row"><b>Плотность:</b> 125 г/м², не просвечивает</div>'+
+    '<div class="plx-row"><b>В комплекте:</b> простынь, пододеяльник, наволочки</div>'+
+   '</div></div></div>'+
+  '<div class="plx-foot"><div class="plx-price"><span class="plx-old">4580 руб</span><span class="plx-new">2290 руб</span></div>'+
+   '<a href="#order" class="plx-buy" id="plxBuy">Заказать</a></div></div>';
  document.body.appendChild(plxOv);
- plxBig=plxOv.querySelector("#plxBig");plxBig.addEventListener("mousemove",function(e){var r=plxBig.getBoundingClientRect();var x=((e.clientX-r.left)/r.width)*100;var y=((e.clientY-r.top)/r.height)*100;plxBig.style.backgroundSize="230%";plxBig.style.backgroundPosition=x+"% "+y+"%";plxBig.style.cursor="zoom-in";});plxBig.addEventListener("mouseleave",function(){plxBig.style.backgroundSize="contain";plxBig.style.backgroundPosition="center";});
+ plxBig=plxOv.querySelector("#plxBig");
  plxStrip=plxOv.querySelector("#plxStrip");
+ plxBig.addEventListener("mousemove",function(e){var r=plxBig.getBoundingClientRect();var x=((e.clientX-r.left)/r.width)*100;var y=((e.clientY-r.top)/r.height)*100;plxBig.style.backgroundSize="230%";plxBig.style.backgroundPosition=x+"% "+y+"%";});
+ plxBig.addEventListener("mouseleave",function(){plxBig.style.backgroundSize="cover";plxBig.style.backgroundPosition="center";});
  plxOv.querySelector(".plx-close").onclick=closePlx;
  plxOv.addEventListener("click",function(e){if(e.target===plxOv)closePlx();});
  plxOv.querySelector("#plxBuy").onclick=function(e){e.preventDefault();doOrder(plxOv.getAttribute("data-art"));};
