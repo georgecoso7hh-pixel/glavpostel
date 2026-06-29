@@ -124,7 +124,7 @@ function esc(t){return (t||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replac
 function bg(u){return "background-image:url('"+u+"')";}
 function avg(){var s=0;REVIEWS.forEach(function(r){s+=r.rating;});return s/REVIEWS.length;}
 function plural(n){var a=n%10,b=n%100;if(a===1&&b!==11)return "отзыв";if(a>=2&&a<=4&&(b<10||b>=20))return "отзыва";return "отзывов";}
-function cover(r){return r.photos[0]||(r.video||"");}
+function posterOf(it,r){return it.type==="video"?(r.photos[0]||""):it.src;}
 
 /* ===================== ЛАЙТБОКС ТОВАРА ===================== */
 var plxOv,plxBig,plxStrip,plxImgs,plxIdx;
@@ -171,7 +171,7 @@ function doOrder(art){
  if(t){t.click();}else{location.hash="#order";}
 }
 
-/* ===================== ГАЛЕРЕЯ КАРТОЧКИ ===================== */
+/* ===================== ГАЛЕРЕЯ КАРТОЧКИ ТОВАРА ===================== */
 function initGalleries(){
  var gals=document.querySelectorAll(".pgal");
  Array.prototype.forEach.call(gals,function(g){
@@ -199,7 +199,7 @@ var rvmOv,rvmStage,curG;
 function buildRvm(){
  rvmOv=el("div","rvm-overlay");
  rvmOv.innerHTML='<div class="rvm-box"><span class="rvm-close">\u00d7</span>'+
-  '<div class="rvm-left"><div class="rvm-back">Ко всем фото и видео</div>'+
+  '<div class="rvm-left"><div class="rvm-back">\u2039 Ко всем фото и видео</div>'+
   '<button class="rvm-nav prev">\u2039</button><div class="rvm-stage" id="rvmStage"></div><button class="rvm-nav next">\u203a</button>'+
   '<div class="rvm-count" id="rvmCount"></div></div>'+
   '<div class="rvm-side" id="rvmSide"></div></div>';
@@ -210,6 +210,10 @@ function buildRvm(){
  rvmOv.addEventListener("click",function(e){if(e.target===rvmOv)closeRvm();});
  rvmOv.querySelector(".rvm-nav.prev").onclick=function(){navG(-1);};
  rvmOv.querySelector(".rvm-nav.next").onclick=function(){navG(1);};
+ document.addEventListener("keydown",function(e){
+  if(!rvmOv.classList.contains("open"))return;
+  if(e.key==="ArrowRight")navG(1);else if(e.key==="ArrowLeft")navG(-1);else if(e.key==="Escape")closeRvm();
+ });
 }
 function navG(d){curG=(curG+d+MEDIA.length)%MEDIA.length;renderG();}
 function renderG(){
@@ -223,8 +227,7 @@ function renderG(){
  var localActive=curG-r.gStart;
  var thumbs="";
  r.media.forEach(function(it,i){
-  var poster=it.type==="video"?(r.photos[0]||""):it.src;
-  thumbs+='<div data-g="'+(r.gStart+i)+'" class="'+(i===localActive?"act ":"")+(it.type==="video"?"vid":"")+'" style="'+bg(poster)+'"></div>';
+  thumbs+='<div data-g="'+(r.gStart+i)+'" class="'+(i===localActive?"act ":"")+(it.type==="video"?"vid":"")+'" style="'+bg(posterOf(it,r))+'"></div>';
  });
  var side='<div class="rvm-h"><div class="rvm-ava">'+esc(r.name.charAt(0))+'</div>'+
   '<div><div class="rvm-name">'+esc(r.name)+'</div><div class="rvm-sub">'+esc(r.city)+' \u00b7 '+esc(r.date)+'</div></div></div>'+
@@ -235,9 +238,10 @@ function renderG(){
   (r.comment?'<div class="rvm-f"><b>Комментарий:</b> <span>'+esc(r.comment)+'</span></div>':'')+
   '<div class="rvm-thumbs">'+thumbs+'</div>'+
   '<div class="rvm-reply"><b>Ответ продавца</b><span>'+esc(r.reply)+'</span></div>'+
-  '<a href="#order" class="rvm-cta" id="rvmCta">Заказать со скидкой ‒50%</a>';
+  '<a href="#order" class="rvm-cta" id="rvmCta">Заказать со скидкой ‒50% <span class="ar">\u203a</span></a>';
  var sd=rvmOv.querySelector("#rvmSide");
  sd.innerHTML=side;
+ sd.scrollTop=0;
  Array.prototype.forEach.call(sd.querySelectorAll(".rvm-thumbs div"),function(d){
   d.onclick=function(){curG=parseInt(d.getAttribute("data-g"),10);renderG();};
  });
@@ -258,16 +262,25 @@ function nPages(){return Math.ceil(REVIEWS.length/perPage());}
 function buildCards(){
  track.innerHTML="";
  var pp=perPage();
- track.style.setProperty("--per",pp);
- REVIEWS.forEach(function(r,ri){
+ REVIEWS.forEach(function(r){
   var card=el("div","rv-card");
   card.style.flexBasis="calc((100% - "+((pp-1)*16)+"px) / "+pp+")";
-  var badge=r.video?'<span class="rv-cov-badge">\u25b6 Видео</span>':(r.photos.length>1?'<span class="rv-cov-badge">'+r.photos.length+' фото</span>':'');
-  card.innerHTML='<div class="rv-cover"><div class="ph" style="'+bg(cover(r))+'"></div>'+badge+'<div class="rv-zoom"><span>\u2922</span></div></div>'+
+  var n=r.media.length;
+  var cov='<div class="rv-cover rv-cov-'+Math.min(n,4)+'">';
+  r.media.slice(0,4).forEach(function(it,ti){
+   var more=(n>4&&ti===3)?'<span class="rv-more">+'+(n-3)+'</span>':'';
+   var play=it.type==="video"?'<span class="rv-play">\u25b6</span>':'';
+   cov+='<div class="rv-tile" data-g="'+(r.gStart+ti)+'" style="'+bg(posterOf(it,r))+'">'+play+more+'</div>';
+  });
+  cov+='</div>';
+  card.innerHTML=cov+
    '<div class="rv-body"><div class="rv-top"><span class="rv-name">'+esc(r.name)+'</span><span class="rv-date">'+esc(r.date)+'</span></div>'+
    '<div class="rv-stars">'+stars(r.rating)+'</div>'+
    '<div class="rv-pros"><b>Достоинства:</b> '+esc(r.pros)+'</div></div>';
-  card.onclick=function(){openRvm(r.gStart);};
+  card.addEventListener("click",function(e){
+   var t=e.target.closest(".rv-tile");
+   openRvm(t?parseInt(t.getAttribute("data-g"),10):r.gStart);
+  });
   track.appendChild(card);
  });
 }
