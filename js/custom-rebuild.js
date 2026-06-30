@@ -422,3 +422,22 @@ function initShowMore(){
 function init(){initGalleries();relocate();renderReviews();initReviewButtons();initShowMore();}
 if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",init);}else{init();}
 })();
+
+/* v30: open product lightbox (plx) on whole-card click; disable legacy #ordering overlay */
+(function(){
+  function bindCardOpen(){
+    Array.prototype.forEach.call(document.querySelectorAll(".products-item"),function(card){
+      if(card.getAttribute("data-cardopen"))return;
+      card.setAttribute("data-cardopen","1");
+      var fl=card.querySelector(".full-link");
+      if(fl){fl.style.pointerEvents="none";}
+      card.addEventListener("click",function(e){
+        if(e.target.closest(".prod-buttons, .pgal, a, button"))return;
+        var main=card.querySelector(".pgal__main");
+        if(main){main.click();}
+      });
+    });
+  }
+  function run(){bindCardOpen();setTimeout(bindCardOpen,400);}
+  if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",run);}else{run();}
+})();
