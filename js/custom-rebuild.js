@@ -441,3 +441,29 @@ if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded"
   function run(){bindCardOpen();setTimeout(bindCardOpen,400);}
   if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",run);}else{run();}
 })();
+/* v31: force correct per-card artikul in order modal header on every open path */
+(function(){
+  function artFromCard(card){ if(!card||!card.querySelector)return ""; var g=card.querySelector(".pgal"); return (g&&g.getAttribute("data-art"))||""; }
+  function curArt(trigger){
+    var ov=document.querySelector(".plx-overlay.open");
+    if(ov&&ov.getAttribute("data-art"))return ov.getAttribute("data-art");
+    var card=trigger&&trigger.closest&&trigger.closest(".products-item");
+    return artFromCard(card);
+  }
+  function applyArt(art){
+    if(!art)return;
+    var nodes=document.querySelectorAll("[id='name']");
+    Array.prototype.forEach.call(nodes,function(nm){
+      nm.innerHTML='<span class="ord-art">\u0410\u0440\u0442\u0438\u043a\u0443\u043b: '+art+'</span>';
+    });
+  }
+  document.addEventListener("click",function(e){
+    if(!e.isTrusted)return;
+    var t=e.target&&e.target.closest&&e.target.closest("#sat_ordering, #plxBuy, .plx-buy, .products-item");
+    if(!t)return;
+    var art=curArt(t);
+    if(art)window.__lastArt=art;
+    if(!window.__lastArt)return;
+    [20,120,260,500,900,1400].forEach(function(ms){setTimeout(function(){applyArt(window.__lastArt);},ms);});
+  },true);
+})();
